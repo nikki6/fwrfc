@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/icono.min.css">
     <script type="text/javascript" src="js/mainJS.js"></script>
 
     <!--[if IE]>
@@ -33,17 +34,17 @@
     <div class="grid-items">
     
     <a href="javascript:void(0)" class="grid-item">
-        <span class="oi" data-glyph="calendar" title="calendar"></span>
+        <span class="icono-calendar" title="calendar"></span>
         <h1>Match Schedule</h1>
         <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
     </a>
     <a href="javascript:void(0)" class="grid-item">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3.png" alt="">
+        <span class="icono-user" title="team"></span>        
         <h1>The Team</h1>
         <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
     </a>
     <a href="javascript:void(0)" class="grid-item">
-        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="">
+        <span class="icono-image" title="images"></span><span class="icono-video" title="images"></span>
         <h1>Media</h1>
         <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
     </a>
