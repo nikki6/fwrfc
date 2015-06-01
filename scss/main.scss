@@ -3,12 +3,17 @@
 @import "base/base";
 //Iconic import
 @import "iconic/open-iconic";
+//Bootstrap 3.2.4
+@import "../assets/stylesheets/bootstrap";
 
 
 
 
 $parallax-window-height: 60em;
 $parallax-background-height: $parallax-window-height * 2;
+
+
+
 
 .parallax-window {
   height: $parallax-window-height;
