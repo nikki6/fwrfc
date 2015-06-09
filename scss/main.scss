@@ -1,170 +1,305 @@
-@import "bourbon/bourbon";
-@import "neat/neat";
-@import "base/base";
-//Iconic import
-@import "iconic/open-iconic";
-//Bootstrap 3.2.4
-@import "../assets/stylesheets/bootstrap";
+//Variables
+//Colors
+//$green: rgba(99, 140, 14, 1);
+//$green: rgba(96, 139, 67, 1);
+//$green: rgba(62, 107, 76, 1);
+//$green: rgba(92, 142, 7, 1);
+$green: rgba(76, 128, 20, 1);
+$black: rgba(5, 3, 6, 1);
+//$dgrey: rgba(104, 94, 97, 1);
+$dgrey: rgba(93, 93, 93, 1);
+$grey: rgba(204, 204, 207, 1);
+//$grey: rgba(195, 202, 210, 1);
+//$white: rgba(248, 249, 251, 1);
+$white: rgba(238, 239, 241, 1);
+//Colors with A 0.5
+//$green5: rgba(99, 140, 14, .5);
+//$green5: rgba(96, 139, 67, .5);
+//$green5: rgba(62, 107, 76, .5);
+//$green5: rgba(92, 142, 7, .5);
+$green5: rgba(76, 128, 20, .5);
+$black5: rgba(5, 3, 6, .5);
+//$dgrey5: rgba(104, 94, 97, .5);
+$dgrey5: rgba(93, 93, 93, .5);
+$grey5: rgba(204, 204, 207, .5);
+//$grey5: rgba(195, 202, 210, .5);
+//$white5: rgba(248, 249, 251, .5);
+$white5: rgba(238, 239, 241, .5);
+//Colors with A 0.75
+//$green75: rgba(99, 140, 14, .75);
+//$green75: rgba(96, 139, 67, .75);
+//$green75: rgba(62, 107, 76, .75);
+//$green75: rgba(92, 142, 7, .75);
+$green75: rgba(76, 128, 20, .75);
+$black75: rgba(5, 3, 6, .75);
+//$dgrey75: rgba(104, 94, 97, .75);
+$dgrey75: rgba(93, 93, 93, .75);
+$grey75: rgba(204, 204, 207, .75);
+//$grey75: rgba(195, 202, 210, .75);
+//$white75: rgba(248, 249, 251, .75);
+$white75: rgba(238, 239, 241, .75);
 
 
 
 
-$parallax-window-height: 60em;
-$parallax-background-height: $parallax-window-height * 2;
-
-
-
-
-.parallax-window {
-  height: $parallax-window-height;
-  max-height: $parallax-window-height;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  width: 100%;
+body {
+  //min-height: 2000px;
+  //padding-top: 50px;
+  //padding-bottom: 20px;
 }
 
-.parallax-static-content {
-  @include transform(translate(50%, 7%));
-  color: #9A9A8A;
-  padding: 8em 0;
-  position: relative;
-  z-index: 9;
-    h1{
-        width: 600px;
-        color:#34495e;
-        font-size: 63px;
-        text-align: left;
-    }
-    
-    p{
-        color:#34495e;
-        font-size: 43px;
-        text-align: left; 
-    }
+//Beggining of Navigation Color Changes
+
+.navbar{
+    background-color: $dgrey75;
 }
 
-.parallax-background {
-  background: url("../img/smallrugbypitch.png") no-repeat;
-  background-position: top;
-  background-size: cover;
-  background-color: beige;
-  height: $parallax-background-height/1.5;
-  left: 0;
-  position: absolute;
-  top: - $parallax-window-height / 3;
-  width: 100%;
+.navbar-default .navbar-brand{
+    color:$white;
 }
-
-// Based on http://codepen.io/skeurentjes/
-
-
-//Second section
-@mixin grid-item-columns($columns) {
-  width: (100% / 12) * $columns;
+.navbar-default .navbar-text {
+  color: $white;
 }
-
-.grid-items {
-  $action-color: #477DCA !default;
-  $base-background-color: white !default;
-  $medium-screen: em(640) !default;
-  $large-screen: em(860) !default;
-  $grid-items-background: $base-background-color;
-  $grid-item-background: desaturate($action-color, 30%);
-  $grid-item-colors: 
-    desaturate($action-color, 30%), 
-    #3581A5, 
-    #5FBEBE,
-    #98C79A,
-    #A7A891, 
-    #BDCC97,
-    #979EA0;
-  $grid-item-border-size: 9px;
-  $grid-item-columns: 4;
-  $grid-item-big-columns: 8;
-  $grid-item-color: white;
-  $grid-item-height: 14em;
-
-  @include clearfix;
-    
-  .grid-item {
-    @include transition (all 0.2s ease-in-out);
-    background: $grid-item-background;
-    border-bottom: $grid-item-border-size solid $grid-items-background;
-    border-left: ($grid-item-border-size / 2) solid $grid-items-background;
-    border-right: ($grid-item-border-size / 2) solid $grid-items-background;
-    border-top: 0;
-    cursor: pointer;
-    float: left;
-    height: $grid-item-height;
-    overflow: hidden;
-    outline: none;
-    padding: 2em;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-
-    @include media($large-screen) {
-      @include grid-item-columns($grid-item-columns);
-    }
-
-    @for $i from 1 through length($grid-item-colors) { // assign colors from $grid-item-colors list
-      &:nth-child(#{$i}) {
-        $background-from-list: nth($grid-item-colors, $i);
-        background-color: $background-from-list;
-        box-shadow: inset 0px 0px 1px 2px darken($background-from-list, 10%);
-
-        &:focus,
-        &:hover {
-          background-color: darken($background-from-list, 10%);
-          background-repeat: no-repeat;
-          background-position: top;
-          background-size: cover;
-        }
-      }
-    }
+.navbar-default .navbar-nav > li > a {
+  color: $white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: $black;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: $dgrey;
+  background-color: $white75;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: $grey;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: $white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: $white;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $dgrey;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: $grey;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: $green;
+  background-color: $dgrey;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: $dgrey;
   }
-
-  .grid-item img {
-      display: block;
-      height: 3em;
-      margin-bottom: 1em;
-      margin: auto;
-    }
-
-  .grid-item h1 {
-      color: $grid-item-color;
-      font-size: 1.3em;
-      margin-bottom: 0.4em;
-    }
-
-  .grid-item p {
-      line-height: 1.5em;
-      margin: auto;
-      color: transparentize($grid-item-color, 0.3);
-      
-      @include media($medium-screen) {
-        max-width: 70%;
-      }
-    }
-
-  .grid-item-big {
-    @include media($large-screen) {
-      @include grid-item-columns($grid-item-big-columns);
-    }
-    p {
-      @include media($medium-screen) {
-        max-width: 60%;
-      }  
-    }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: $black;
+    background-color: transparent;
   }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: $dgrey;
+    background-color: $white;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: $grey;
+    background-color: transparent;
+  }
+}
+.navbar-default .navbar-link {
+  color: $dgrey;
+}
+.navbar-default .navbar-link:hover {
+  color: $green;
+}
+.navbar-default .btn-link {
+  color: #777;
+}
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #333;
+}
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #ccc;
+}
 
-  .grid-item-image {
-    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png");
-    background-color: $grid-item-background;
-    background-position: top;
-    background-repeat: no-repeat;
+//End of Navigation Color Changes
+
+
+.banner{
+    background-image: url(../img/smallrugbypitch.png);
     background-size: cover;
-  }
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 1000px;
+    min-height: 500px;
+}
+
+.jumbotron{
+    margin: 100px 20px 50px 500px;
+    padding: 100px 50px;
+    background-color: transparent;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.first{
+    background-image: url(../img/diamond_upholstery/diamond_upholstery_@2X.png);
+    background-color: $green75;
+    color:$grey;
+    .about{
+        background-color: $green; 
+        min-height: 243px;
+        vertical-align: center;
+    }
+    .roster{
+    background-color: $black5;
+    min-height: 243px;
+    line-height: 243px;
+    vertical-align: middle;
+    font-size: 200%;
+    text-align: center;
+    
+    .shape{
+        width: 0%;
+	    height: 100%;
+        margin: 0;
+	    border-bottom: 243px solid $green;
+	    border-right: 230px solid transparent;
+        position: absolute;
+        transform: translateX(-15px);
+    }
+    a{
+        color: $white;
+        span{
+            color:$white;
+            width: 100px;
+        }
+        span:hover{
+            color:$white75;
+        }
+    }
+    
+    
+    a:hover{
+        color:$white75;
+        text-decoration: none;
+        //text-shadow: h-shadow v-shadow blur-radius color
+        text-shadow: 4px 4px 10px $dgrey;
+    }
     
 }
+    
+}
+
+.second{
+    background-image: url(../img/upfeathers/upfeathers.png);
+    .events{
+        padding: 10px 50px;
+        background: $dgrey;
+
+        table{
+            border: solid $dgrey 5px;
+            background: $grey;
+
+            th{
+                background: $black75;
+                color: $white;
+                border-left-color: $black;
+            }
+            td{
+                border-left-color: $dgrey;
+            }
+        }
+    }
+    .shape{
+        width: 0%;
+	    height: 100%;
+        float: right;
+	    border-top: 300px solid $dgrey;
+        border-left:20px solid transparent;
+        position: absolute;
+        transform: translate(892px, -10px);
+    }
+    .practice{
+        padding: 10px 50px;
+        background-color: $black75;
+        min-height: 298px;
+        color: $white;
+        p{
+            line-height: 25px;
+        }
+    }
+}
+
+.third{
+    background-color: $grey;
+    .schedule{
+        padding: 10px 100px;
+        table{
+            background-color: $green5;
+            //border: solid $green 10px;
+            border-style: solid;
+            border-width: 20px 20px 20px 20px;
+            -moz-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
+            -webkit-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
+            -o-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
+            border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
+           // max-width: 75%;
+        }
+    }
+}
+
+.fourth{
+    min-height: 200px;
+    background-color: $dgrey75;
+    color:$green;
+    text-align: center;
+    font-size: 200%;
+    vertical-align: middle;
+    line-height: 200px;
+    a{
+        color: $black;
+    }
+    a:hover{
+        color:$green;
+    }
+    
+}
+
+.footer{
+    background-color: $black;
+    color:$white;
+    .contact{
+        border-left: solid $grey5 2px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
