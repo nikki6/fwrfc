@@ -211,6 +211,9 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
                         </tr>
                     </tbody>
                 </table>
+                <div class="map">
+                    
+                </div>
             </div>
         </div>
         <div class="row fourth">
