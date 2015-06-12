@@ -197,5 +197,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #eeeff1; }
   .footer .contact {
     border-left: solid rgba(204, 204, 207, 0.5) 2px; }
+  .footer .social img {
+    width: 100px; }
 
 /*# sourceMappingURL=main.css.map */

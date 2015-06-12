@@ -224,7 +224,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
         <div class="row footer">
             <div class="col-sm-12 col-md-4 col-lg-4 social">
                 <a href="http://www.facebook.com">Facebook</a>
-                <a href="http://www.twitter.com">Twitter</a>
+                <a href="http://www.twitter.com"><img src="img/social_media/twitterSwirl.png" alt = "twitter"></a>
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3 important">
                 <h3>Frederick Women's Rugby Football Club <small>est. 2004</small></h3>

@@ -292,6 +292,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     .contact{
         border-left: solid $grey5 2px;
     }
+    
+    .social{
+        img{
+            width: 100px;
+        }
+    }
 }
 
 
