@@ -131,8 +131,11 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
             <div class="col-sm-6 col-md-6 col-lg-6 practice">
                 <div class = "shape"></div>
                 <h2>Practices</h2>
-                <p>Cras commodo laoreet posuere. Etiam elementum nulla nec metus fermentum, eget convallis diam tristique. Curabitur iaculis rutrum justo. Morbi eu tellus suscipit, vulputate mi vitae, mollis velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus augue nunc, tempor vitae massa et, finibus condimentum nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin laoreet urna eros, non feugiat diam bibendum vitae. Phasellus tristique ipsum sit amet erat tempus viverra. Curabitur pellentesque sapien et imperdiet posuere. In eros tellus, sollicitudin a tincidunt non, dignissim id est. Pellentesque lacinia lacus at elit gravida, non consectetur leo tempus. Ut quis imperdiet massa. Nulla pellentesque euismod posuere. Nam at ante et dolor consequat malesuada. Nullam et mi mauris.</p>
+                <p>The Summer 7s Season has started up again! Practices are Tuesdays and Thursdays at 7:00 to 8:30 at Walnut Ridge.</p>
                 <address>
+                    <strong>Walnut Ridge</strong><br>
+                    1166 Rocky Springs Rd<br> 
+                    Frederick, MD 21702<br>
                     
                 </address>
                 
