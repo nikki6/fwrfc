@@ -1,3 +1,6 @@
+@import 'ashbury';
+@import 'sofia';
+
 //Variables
 //Colors
 //$green: rgba(99, 140, 14, 1);
@@ -40,12 +43,20 @@ $grey75: rgba(204, 204, 207, .75);
 $white75: rgba(238, 239, 241, .75);
 
 
-
+//fonts
+$headings:'sofia';
+$text:'ashbury';
 
 body {
   //min-height: 2000px;
   //padding-top: 50px;
   //padding-bottom: 20px;
+    font-family: $text;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: $headings;
+    font-size: 275%;
 }
 
 //Beggining of Navigation Color Changes
@@ -146,7 +157,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 
 .banner{
-    background-image: url(../img/smallrugbypitch.png);
+    background-image: url(../img/smallrugbypitch25.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -160,6 +171,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: transparent;
     text-align: right;
     border-radius: 10px;
+    font-family: $headings;
+    color: $white;
+    small{
+        color: $white75;
+    }
 }
 
 .first{
@@ -186,7 +202,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 	    border-bottom: 243px solid $green;
 	    border-right: 230px solid transparent;
         position: absolute;
+        -ms-transform: translateX(-15px);
+        -moz-transform: translateX(-15px);
+        -webkit-transform: translateX(-15px);
+        -o-transform: translateX(-15px);
         transform: translateX(-15px);
+        
     }
     a{
         color: $white;
@@ -216,7 +237,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     .events{
         padding: 10px 50px;
         background: $dgrey;
-
+        min-height: 298px;
         table{
             border: solid $dgrey 5px;
             background: $grey;
@@ -238,15 +259,25 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 	    border-top: 300px solid $dgrey;
         border-left:20px solid transparent;
         position: absolute;
+        -ms-transform: translate(892px, -10px);
+        -moz-transform: translate(892px, -10px);
+        -webkit-transform: translate(650px, -10px);
+        -o-transform: translate(892px, -10px);
         transform: translate(892px, -10px);
+
     }
     .practice{
         padding: 10px 50px;
         background-color: $black75;
         min-height: 298px;
         color: $white;
+        font-size: 18px;
         p{
             line-height: 25px;
+        }
+        address{
+            text-align: center;
+            font-size: 18px;
         }
     }
 }
@@ -257,13 +288,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
         padding: 10px 100px;
         table{
             background-color: $green5;
-            //border: solid $green 10px;
+            border: solid $green 10px;
             border-style: solid;
-            border-width: 20px 20px 20px 20px;
-            -moz-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
-            -webkit-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
-            -o-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
-            border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
+            border-width: 20px;
+            -moz-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+            -webkit-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+            -o-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+            border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
            // max-width: 75%;
         }
     }
@@ -288,15 +319,21 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .footer{
     background-color: $black;
+    font-size: 18px;
     color:$white;
     .contact{
         border-left: solid $grey5 2px;
     }
     
+<<<<<<< HEAD
     .social{
         img{
             width: 100px;
         }
+=======
+    h3{
+        font-size: 20px;
+>>>>>>> 34cc6639388477f19a41830b589145b6f50db309
     }
 }
 

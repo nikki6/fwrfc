@@ -1,3 +1,68 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Hoftype
+ * License URL: http://www.fontspring.com/licenses/hoftype/webfont
+ *
+ *
+ */
+@font-face {
+  font-family: 'ashbury';
+  src: url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.eot");
+  src: url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.woff2") format("woff2"), url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.woff") format("woff"), url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.ttf") format("truetype"), url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.svg#ashburylight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Mostardesign
+ * License URL: http://www.fontspring.com/licenses/mostardesign/webfont
+ *
+ *
+ */
+@font-face {
+  font-family: 'sofia';
+  src: url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.eot");
+  src: url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.woff2") format("woff2"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.woff") format("woff"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.ttf") format("truetype"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.svg#sofia_prolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "ashbury"; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "sofia";
+  font-size: 275%; }
+
 .navbar {
   background-color: rgba(93, 93, 93, 0.75); }
 
@@ -87,7 +152,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc; }
 
 .banner {
-  background-image: url(../img/smallrugbypitch.png);
+  background-image: url(../img/smallrugbypitch25.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,7 +164,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   padding: 100px 50px;
   background-color: transparent;
   text-align: right;
-  border-radius: 10px; }
+  border-radius: 10px;
+  font-family: "sofia";
+  color: #eeeff1; }
+  .jumbotron small {
+    color: rgba(238, 239, 241, 0.75); }
 
 .first {
   background-image: url(../img/diamond_upholstery/diamond_upholstery_@2X.png);
@@ -123,6 +192,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
       border-bottom: 243px solid #4c8014;
       border-right: 230px solid transparent;
       position: absolute;
+      -ms-transform: translateX(-15px);
+      -moz-transform: translateX(-15px);
+      -webkit-transform: translateX(-15px);
+      -o-transform: translateX(-15px);
       transform: translateX(-15px); }
     .first .roster a {
       color: #eeeff1; }
@@ -140,7 +213,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-image: url(../img/upfeathers/upfeathers.png); }
   .second .events {
     padding: 10px 50px;
-    background: #5d5d5d; }
+    background: #5d5d5d;
+    min-height: 298px; }
     .second .events table {
       border: solid #5d5d5d 5px;
       background: #cccccf; }
@@ -157,14 +231,22 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     border-top: 300px solid #5d5d5d;
     border-left: 20px solid transparent;
     position: absolute;
+    -ms-transform: translate(892px, -10px);
+    -moz-transform: translate(892px, -10px);
+    -webkit-transform: translate(650px, -10px);
+    -o-transform: translate(892px, -10px);
     transform: translate(892px, -10px); }
   .second .practice {
     padding: 10px 50px;
     background-color: rgba(5, 3, 6, 0.75);
     min-height: 298px;
-    color: #eeeff1; }
+    color: #eeeff1;
+    font-size: 18px; }
     .second .practice p {
       line-height: 25px; }
+    .second .practice address {
+      text-align: center;
+      font-size: 18px; }
 
 .third {
   background-color: #cccccf; }
@@ -172,12 +254,13 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     padding: 10px 100px; }
     .third .schedule table {
       background-color: rgba(76, 128, 20, 0.5);
+      border: solid #4c8014 10px;
       border-style: solid;
-      border-width: 20px 20px 20px 20px;
-      -moz-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
-      -webkit-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
-      -o-border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat;
-      border-image: url(../img/retina_wood/retina_wood.png) 22 27 27 22 repeat; }
+      border-width: 20px;
+      -moz-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+      -webkit-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+      -o-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+      border-image: url(../img/retina_wood/retina_wood.png) 20px stretch; }
 
 .fourth {
   min-height: 200px;
@@ -194,10 +277,16 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .footer {
   background-color: #050306;
+  font-size: 18px;
   color: #eeeff1; }
   .footer .contact {
     border-left: solid rgba(204, 204, 207, 0.5) 2px; }
+<<<<<<< HEAD
   .footer .social img {
     width: 100px; }
+=======
+  .footer h3 {
+    font-size: 20px; }
+>>>>>>> 34cc6639388477f19a41830b589145b6f50db309
 
 /*# sourceMappingURL=main.css.map */
