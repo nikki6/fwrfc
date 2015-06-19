@@ -12,11 +12,11 @@
 
     <title>Fixed Top Navbar Example for Bootstrap</title>
     <!-- CSS Reset   -->
-    <link href="css/normalize.css" rel="stylesheet">
+    <link href="../css/normalize.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <!--  Custom CSS  -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="../scss/forms.css" rel="stylesheet"> 
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,7 +29,7 @@
 <body>
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top ">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -44,18 +44,18 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Home</a>
                     </li>
-                    <li><a href="#about">About</a>
-                    </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">The Team <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Forms <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Our Roster</a>
+                            <li><a href="#">Roster</a>
                             </li>
-                            <li><a href="#">The Schedule</a>
+                            <li><a href="#">Schedule</a>
+                            </li>
+                            <li><a href="#">Events</a>
+                            </li>
+                            <li><a href="#">Practice Info</a>
                             </li>
                         </ul>
-                    </li>
-                    <li><a href="#about">Media</a>
                     </li>
                 </ul>
             </div>

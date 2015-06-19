@@ -1,0 +1,93 @@
+@import '../../scss/ashbury';
+@import '../../scss/sofia';
+
+//Variables
+//Colors
+//$green: rgba(99, 140, 14, 1);
+//$green: rgba(96, 139, 67, 1);
+//$green: rgba(62, 107, 76, 1);
+//$green: rgba(92, 142, 7, 1);
+$green: rgba(76, 128, 20, 1);
+$black: rgba(5, 3, 6, 1);
+//$dgrey: rgba(104, 94, 97, 1);
+$dgrey: rgba(93, 93, 93, 1);
+$grey: rgba(204, 204, 207, 1);
+//$grey: rgba(195, 202, 210, 1);
+//$white: rgba(248, 249, 251, 1);
+$white: rgba(238, 239, 241, 1);
+//Colors with A 0.5
+//$green5: rgba(99, 140, 14, .5);
+//$green5: rgba(96, 139, 67, .5);
+//$green5: rgba(62, 107, 76, .5);
+//$green5: rgba(92, 142, 7, .5);
+$green5: rgba(76, 128, 20, .5);
+$black5: rgba(5, 3, 6, .5);
+//$dgrey5: rgba(104, 94, 97, .5);
+$dgrey5: rgba(93, 93, 93, .5);
+$grey5: rgba(204, 204, 207, .5);
+//$grey5: rgba(195, 202, 210, .5);
+//$white5: rgba(248, 249, 251, .5);
+$white5: rgba(238, 239, 241, .5);
+//Colors with A 0.75
+//$green75: rgba(99, 140, 14, .75);
+//$green75: rgba(96, 139, 67, .75);
+//$green75: rgba(62, 107, 76, .75);
+//$green75: rgba(92, 142, 7, .75);
+$green75: rgba(76, 128, 20, .75);
+$black75: rgba(5, 3, 6, .75);
+//$dgrey75: rgba(104, 94, 97, .75);
+$dgrey75: rgba(93, 93, 93, .75);
+$grey75: rgba(204, 204, 207, .75);
+//$grey75: rgba(195, 202, 210, .75);
+//$white75: rgba(248, 249, 251, .75);
+$white75: rgba(238, 239, 241, .75);
+
+
+//fonts
+$headings:'sofia';
+$text:'ashbury';
+
+body{
+    margin-top: 90px;
+    background-color: $dgrey;
+    color: $white;
+    font-family: $text;
+    
+}
+
+.rosterForm{
+
+}
+
+.loginForm{
+    font-size: 25px;
+    padding: 0px;
+    padding-left: -200px;
+    
+    button{
+        margin-left: 50%;
+        text-align: center;
+    }
+    
+}
+
+
+.basic{
+    h1{
+        font-family: $headings;
+        text-align: center;
+        background-color: #27ae60;
+        border-top: solid 1px #27ae60;
+        padding: 10px 30px;
+        border-radius: 10px;
+        margin:0px;
+    }
+    form{
+        padding:10px 30px;
+        margin: 0px;
+        background-color: #27ae60;
+        border: solid 1px #27ae60;
+        border-radius: 10px;
+    }
+}
+
