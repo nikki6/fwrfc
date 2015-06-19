@@ -1,52 +1,293 @@
 /*
-Error: Invalid CSS after "...37c16481272d1d1": expected "{", was "}"
-        on line 350 of /Applications/MAMP/htdocs/fwrfc/scss/main.scss
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Hoftype
+ * License URL: http://www.fontspring.com/licenses/hoftype/webfont
+ *
+ *
+ */
+@font-face {
+  font-family: 'ashbury';
+  src: url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.eot");
+  src: url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.woff2") format("woff2"), url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.woff") format("woff"), url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.ttf") format("truetype"), url("../fonts/Ashbury/Webfonts/ashbury/AshburyLig-webfont.svg#ashburylight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Mostardesign
+ * License URL: http://www.fontspring.com/licenses/mostardesign/webfont
+ *
+ *
+ */
+@font-face {
+  font-family: 'sofia';
+  src: url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.eot");
+  src: url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.woff2") format("woff2"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.woff") format("woff"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.ttf") format("truetype"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.svg#sofia_prolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "ashbury"; }
 
-345:         }
-346: =======
-347:     h3{
-348:         font-size: 20px;
-349: >>>>>>> 2cea8a355485b7eede973a32637c16481272d1d1
-350:     }
-351: }
-352: 
-353: }
+h1, h2, h3, h4, h5 {
+  font-family: "sofia";
+  font-size: 275%; }
 
-Backtrace:
-/Applications/MAMP/htdocs/fwrfc/scss/main.scss:350
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1096:in `tok!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:641:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:711:in `declaration_or_ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:661:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:642:in `block'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:635:in `ruleset'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:660:in `block_child'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:653:in `block_contents'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:42:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...37c16481272d1d1\": expected \"{\", was \"}\"\A         on line 350 of /Applications/MAMP/htdocs/fwrfc/scss/main.scss\A \A 345:         }\A 346: =======\A 347:     h3{\A 348:         font-size: 20px;\A 349: >>>>>>> 2cea8a355485b7eede973a32637c16481272d1d1\A 350:     }\A 351: }\A 352: \A 353: }"; }
+.navbar {
+  background-color: rgba(93, 93, 93, 0.75); }
+
+.navbar-default .navbar-brand {
+  color: #eeeff1; }
+
+.navbar-default .navbar-text {
+  color: #eeeff1; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #eeeff1; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #050306;
+  background-color: transparent; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #5d5d5d;
+  background-color: rgba(238, 239, 241, 0.75); }
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccf;
+  background-color: transparent; }
+
+.navbar-default .navbar-toggle {
+  border-color: #eeeff1; }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #eeeff1; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #5d5d5d; }
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #cccccf; }
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #4c8014;
+  background-color: #5d5d5d; }
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #5d5d5d; }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #050306;
+    background-color: transparent; }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #5d5d5d;
+    background-color: #eeeff1; }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccf;
+    background-color: transparent; } }
+.navbar-default .navbar-link {
+  color: #5d5d5d; }
+
+.navbar-default .navbar-link:hover {
+  color: #4c8014; }
+
+.navbar-default .btn-link {
+  color: #777; }
+
+.navbar-default .btn-link:hover,
+.navbar-default .btn-link:focus {
+  color: #333; }
+
+.navbar-default .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #ccc; }
+
+.banner {
+  background-image: url(../img/FWRFCFabHeaderWhiteWithBackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 1000px;
+  min-height: 500px; }
+
+.jumbotron {
+  margin: 100px 20px 50px 500px;
+  padding: 100px 50px;
+  background-color: transparent;
+  text-align: right;
+  border-radius: 10px;
+  font-family: "sofia";
+  color: #eeeff1; }
+  .jumbotron small {
+    color: rgba(238, 239, 241, 0.75); }
+  .jumbotron img {
+    transform: translateX(-400px); }
+
+.first {
+  background-image: url(../img/diamond_upholstery/diamond_upholstery_@2X.png);
+  background-color: rgba(76, 128, 20, 0.75);
+  color: #cccccf; }
+  .first .about {
+    background-color: #4c8014;
+    min-height: 243px;
+    vertical-align: center; }
+  .first .roster {
+    background-color: rgba(5, 3, 6, 0.5);
+    min-height: 243px;
+    line-height: 243px;
+    vertical-align: middle;
+    font-size: 200%;
+    text-align: center; }
+    .first .roster .shape {
+      width: 0%;
+      height: 100%;
+      margin: 0;
+      border-bottom: 243px solid #4c8014;
+      border-right: 230px solid transparent;
+      position: absolute;
+      -ms-transform: translateX(-15px);
+      -moz-transform: translateX(-15px);
+      -webkit-transform: translateX(-15px);
+      -o-transform: translateX(-15px);
+      transform: translateX(-15px); }
+    .first .roster a {
+      color: #eeeff1; }
+      .first .roster a span {
+        color: #eeeff1;
+        width: 100px; }
+      .first .roster a span:hover {
+        color: rgba(238, 239, 241, 0.75); }
+    .first .roster a:hover {
+      color: rgba(238, 239, 241, 0.75);
+      text-decoration: none;
+      text-shadow: 4px 4px 10px #5d5d5d; }
+
+.second {
+  background-image: url(../img/upfeathers/upfeathers.png); }
+  .second .events {
+    padding: 10px 50px;
+    background: #5d5d5d;
+    min-height: 298px; }
+    .second .events table {
+      border: solid #5d5d5d 5px;
+      background: #cccccf; }
+      .second .events table th {
+        background: rgba(5, 3, 6, 0.75);
+        color: #eeeff1;
+        border-left-color: #050306; }
+      .second .events table td {
+        border-left-color: #5d5d5d; }
+  .second .shape {
+    width: 0%;
+    height: 100%;
+    float: right;
+    border-top: 300px solid #5d5d5d;
+    border-left: 20px solid transparent;
+    position: absolute;
+    -ms-transform: translate(892px, -10px);
+    -moz-transform: translate(892px, -10px);
+    -webkit-transform: translate(650px, -10px);
+    -o-transform: translate(892px, -10px);
+    transform: translate(892px, -10px); }
+  .second .practice {
+    padding: 10px 50px;
+    background-color: rgba(5, 3, 6, 0.75);
+    min-height: 298px;
+    color: #eeeff1;
+    font-size: 18px; }
+    .second .practice p {
+      line-height: 25px; }
+    .second .practice address {
+      text-align: center;
+      font-size: 18px; }
+
+.third {
+  background-color: #cccccf; }
+  .third .schedule {
+    padding: 10px 100px; }
+    .third .schedule table {
+      background-color: rgba(76, 128, 20, 0.5);
+      border: solid #4c8014 10px;
+      border-style: solid;
+      border-width: 20px;
+      -moz-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+      -webkit-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+      -o-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+      border-image: url(../img/retina_wood/retina_wood.png) 20px stretch; }
+
+.fourth {
+  min-height: 200px;
+  background-color: rgba(93, 93, 93, 0.75);
+  color: #4c8014;
+  text-align: center;
+  font-size: 200%;
+  vertical-align: middle;
+  line-height: 200px; }
+  .fourth a {
+    color: #050306; }
+  .fourth a:hover {
+    color: #4c8014; }
+
+.footer {
+  background-color: #050306;
+  font-size: 18px;
+  color: #eeeff1; }
+  .footer .contact {
+    border-left: solid rgba(204, 204, 207, 0.5) 2px; }
+  .footer .social img {
+    width: 100px; }
+  .footer .social h3 {
+    font-size: 20px; }
+  .footer .social h3 {
+    font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */
