@@ -157,7 +157,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 
 .banner{
-    background-image: url(../img/smallrugbypitch25.png);
+   // background-image: url(../img/smallrugbypitch25.png);
+    background-image: url(../img/FWRFCFabHeaderWhiteWithBackground.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -175,6 +176,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     color: $white;
     small{
         color: $white75;
+    }
+    img{
+//        transform: scale(.25);
+//         -ms-transform: translateX(-300px);
+//        -moz-transform: translateX(-300px);
+//        -webkit-transform: translateX(-300px);
+//        -o-transform: translateX(-300px);
+        transform: translateX(-400px);
     }
 }
 
@@ -329,14 +338,19 @@ fieldset[disabled] .navbar-default .btn-link:focus {
         img{
             width: 100px;
         }
+<<<<<<< HEAD
 
         h3{
             font-size: 20px;
         }
+=======
+    h3{
+        font-size: 20px;
+>>>>>>> 2cea8a355485b7eede973a32637c16481272d1d1
     }
 }
 
-
+}
 
 
 
