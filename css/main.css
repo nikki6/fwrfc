@@ -152,7 +152,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc; }
 
 .banner {
-  background-image: url(../img/smallrugbypitch25.png);
+  background-image: url(../img/FWRFCFabHeaderWhiteWithBackground.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -169,6 +169,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #eeeff1; }
   .jumbotron small {
     color: rgba(238, 239, 241, 0.75); }
+  .jumbotron img {
+    transform: translateX(-400px); }
 
 .first {
   background-image: url(../img/diamond_upholstery/diamond_upholstery_@2X.png);
@@ -281,12 +283,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #eeeff1; }
   .footer .contact {
     border-left: solid rgba(204, 204, 207, 0.5) 2px; }
-<<<<<<< HEAD
   .footer .social img {
     width: 100px; }
-=======
-  .footer h3 {
+  .footer .social h3 {
     font-size: 20px; }
->>>>>>> 34cc6639388477f19a41830b589145b6f50db309
 
 /*# sourceMappingURL=main.css.map */

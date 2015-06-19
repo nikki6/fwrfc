@@ -107,10 +107,13 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
     <div class="row banner">
         <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="jumbotron">
+<!--                <img src="img/FWRFCFabHeaderWhite.png" alt="FWRFC">-->
+<!--
                 <h1>
             Frederick Women's Rugby Football Club<br>
             <small>est. 2004</small>
         </h1>
+-->
 
             </div>
         </div>
