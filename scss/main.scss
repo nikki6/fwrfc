@@ -1,47 +1,6 @@
 @import 'ashbury';
 @import 'sofia';
-
-//Variables
-//Colors
-//$green: rgba(99, 140, 14, 1);
-//$green: rgba(96, 139, 67, 1);
-//$green: rgba(62, 107, 76, 1);
-//$green: rgba(92, 142, 7, 1);
-$green: rgba(76, 128, 20, 1);
-$black: rgba(5, 3, 6, 1);
-//$dgrey: rgba(104, 94, 97, 1);
-$dgrey: rgba(93, 93, 93, 1);
-$grey: rgba(204, 204, 207, 1);
-//$grey: rgba(195, 202, 210, 1);
-//$white: rgba(248, 249, 251, 1);
-$white: rgba(238, 239, 241, 1);
-//Colors with A 0.5
-//$green5: rgba(99, 140, 14, .5);
-//$green5: rgba(96, 139, 67, .5);
-//$green5: rgba(62, 107, 76, .5);
-//$green5: rgba(92, 142, 7, .5);
-$green5: rgba(76, 128, 20, .5);
-$black5: rgba(5, 3, 6, .5);
-//$dgrey5: rgba(104, 94, 97, .5);
-$dgrey5: rgba(93, 93, 93, .5);
-$grey5: rgba(204, 204, 207, .5);
-//$grey5: rgba(195, 202, 210, .5);
-//$white5: rgba(248, 249, 251, .5);
-$white5: rgba(238, 239, 241, .5);
-//Colors with A 0.75
-//$green75: rgba(99, 140, 14, .75);
-//$green75: rgba(96, 139, 67, .75);
-//$green75: rgba(62, 107, 76, .75);
-//$green75: rgba(92, 142, 7, .75);
-$green75: rgba(76, 128, 20, .75);
-$black75: rgba(5, 3, 6, .75);
-//$dgrey75: rgba(104, 94, 97, .75);
-$dgrey75: rgba(93, 93, 93, .75);
-$grey75: rgba(204, 204, 207, .75);
-//$grey75: rgba(195, 202, 210, .75);
-//$white75: rgba(248, 249, 251, .75);
-$white75: rgba(238, 239, 241, .75);
-
+@import 'colors';
 
 //fonts
 $headings:'sofia';
@@ -52,11 +11,12 @@ body {
   //padding-top: 50px;
   //padding-bottom: 20px;
     font-family: $text;
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, h5{
     font-family: $headings;
-    font-size: 275%;
+   // font-size: 275%;
 }
 
 //Beggining of Navigation Color Changes
@@ -154,205 +114,278 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 //End of Navigation Color Changes
-
+//Version 2 Added on June 22 
 
 .banner{
-    background-image: url(../img/grassTex/wet_grass_black.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-height: 1000px;
-    min-height: 500px;
+    margin-right:0px;
 }
 
-.jumbotron{
-    background-image: url(../img/titleBanners/fwrfcxplorwhite.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 5% 15% 5% 15%;
-    min-width: 100px;
-    max-width: 1200px;
-    min-height: 400px;
-    background-color: transparent;
-    text-align: right;
-    //border-radius: 10px;
-    font-family: $headings;
-    color: $white;
-    small{
-        color: $white75;
+#history{
+    border-bottom: 3px solid $dgrey;
+    img#logo{
+        margin-left: 44.5%;
     }
-    img{
-//        transform: scale(.25);
-//         -ms-transform: translateX(-300px);
-//        -moz-transform: translateX(-300px);
-//        -webkit-transform: translateX(-300px);
-//        -o-transform: translateX(-300px);
-        transform: translateX(-400px);
+    h2{
+        text-align: center;
     }
-}
-
-.first{
-    background-image: url(../img/diamond_upholstery/diamond_upholstery_@2X.png);
-    background-color: $green75;
-    color:$grey;
-    .about{
-        background-color: $green; 
-        min-height: 243px;
-        vertical-align: center;
-    }
-    .roster{
-    background-color: $black5;
-    min-height: 243px;
-    line-height: 243px;
-    vertical-align: middle;
-    font-size: 200%;
-    text-align: center;
-    
-    .shape{
-        width: 0%;
-	    height: 100%;
-        margin: 0;
-	    border-bottom: 243px solid $green;
-	    border-right: 230px solid transparent;
-        position: absolute;
-        -ms-transform: translateX(-15px);
-        -moz-transform: translateX(-15px);
-        -webkit-transform: translateX(-15px);
-        -o-transform: translateX(-15px);
-        transform: translateX(-15px);
+    p{
+        margin: 10px 100px 30px 100px;
         
     }
-    a{
-        color: $white;
-        span{
-            color:$white;
-            width: 100px;
-        }
-        span:hover{
-            color:$white75;
-        }
-    }
-    
-    
-    a:hover{
-        color:$white75;
-        text-decoration: none;
-        //text-shadow: h-shadow v-shadow blur-radius color
-        text-shadow: 4px 4px 10px $dgrey;
-    }
-    
-}
-    
 }
 
-.second{
-    background-image: url(../img/upfeathers/upfeathers.png);
-    .events{
-        padding: 10px 50px;
-        background: $dgrey;
-        min-height: 298px;
-        table{
-            border: solid $dgrey 5px;
-            background: $grey;
-
-            th{
-                background: $black75;
-                color: $white;
-                border-left-color: $black;
-            }
-            td{
-                border-left-color: $dgrey;
-            }
-        }
-    }
-    .shape{
-        width: 0%;
-	    height: 100%;
-        float: right;
-	    border-top: 300px solid $dgrey;
-        border-left:20px solid transparent;
-        position: absolute;
-        -ms-transform: translate(892px, -10px);
-        -moz-transform: translate(892px, -10px);
-        -webkit-transform: translate(650px, -10px);
-        -o-transform: translate(892px, -10px);
-        transform: translate(892px, -10px);
-
-    }
+#pe{
     .practice{
-        padding: 10px 50px;
-        background-color: $black75;
-        min-height: 298px;
-        color: $white;
-        font-size: 18px;
-        p{
-            line-height: 25px;
-        }
+        height: 100%;
+        padding: 0px 100px;
         address{
+            
             text-align: center;
-            font-size: 18px;
+        }
+    }
+    .events{
+
+    }
+}
+
+#games{
+    padding: 2% 0% 2% 35%;
+    h2{
+    }
+    table{
+        th{
+            
         }
     }
 }
 
-.third{
-    background-color: $grey;
-    .schedule{
-        padding: 10px 100px;
-        table{
-            background-color: $green5;
-            border: solid $green 10px;
-            border-style: solid;
-            border-width: 20px;
-            -moz-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
-            -webkit-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
-            -o-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
-            border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
-           // max-width: 75%;
-        }
+#mr{
+    .media{
     }
-}
-
-.fourth{
-    min-height: 200px;
-    background-color: $dgrey75;
-    color:$green;
-    text-align: center;
-    font-size: 200%;
-    vertical-align: middle;
-    line-height: 200px;
+    .roster{
+    }
     a{
-        color: $black;
     }
-    a:hover{
-        color:$green;
-    }
-    
 }
 
-.footer{
-    background-color: $black;
-    font-size: 18px;
-    color:$white;
-    .contact{
-        border-left: solid $grey5 2px;
-    }
-    
-    .social{
-        img{
-            width: 100px;
-        }
-
-        h3{
-            font-size: 20px;
-        }
-
+#contact{
     h3{
-        font-size: 20px;
+    }
+    form{
     }
 }
 
+#footer{
+    a{
+    }
 }
+
+#footer2{
+    h3{
+    }
+}
+
+
+
+//
+//.banner{
+//    background-image: url(../img/smallrugbypitch25.png);
+//    //background-image: url(../img/FWRFCFabHeaderWhiteWithBackground.png);
+//    background-size: cover;
+//    background-repeat: no-repeat;
+//    background-position: center;
+//  //  max-height: 1000px;
+//    min-height: 500px;
+//    margin-right: 0px;
+//}
+//
+//.jumbotron{
+//    margin: 100px 20px 50px 200px;
+//    padding: 100px 50px;
+//    background-color: transparent;
+//    text-align: right;
+//    border-radius: 10px;
+//    font-family: $headings;
+//    color: $white;
+//    small{
+//        color: $white75;
+//    }
+//    img{
+////        transform: scale(.25);
+////         -ms-transform: translateX(-300px);
+////        -moz-transform: translateX(-300px);
+////        -webkit-transform: translateX(-300px);
+////        -o-transform: translateX(-300px);
+//        transform: translateX(-400px);
+//    }
+//}
+//
+//.first{
+//    background-image: url(../img/diamond_upholstery/diamond_upholstery_@2X.png);
+//    background-color: $green75;
+//    color:$grey;
+//    min-height: 248px;
+//    .about{
+//        background-color: $green; 
+//        vertical-align: center;
+//    }
+//    .roster{
+//    background-color: $black5;
+//    height: 100%;
+//    //line-height: 243px;
+//    vertical-align: middle;
+//    font-size: 200%;
+//    text-align: center;
+//    margin-right: 0px;
+//    .shape{
+//        width: 0%;
+//	    height: 100%;
+//        margin: 0;
+//	    border-bottom: 253px solid $green;
+//	    border-right: 235px solid transparent;
+//        position: absolute;
+//        -ms-transform: translateX(-15px);
+//        -moz-transform: translateX(-15px);
+//        -webkit-transform: translateX(-15px);
+//        -o-transform: translateX(-15px);
+//        transform: translateX(-15px);
+//        
+//    }
+//    a{
+//        color: $white;
+//        span{
+//            color:$white;
+//            width: 100px;
+//        }
+//        span:hover{
+//            color:$white75;
+//        }
+//    }
+//    
+//    
+//    a:hover{
+//        color:$white75;
+//        text-decoration: none;
+//        //text-shadow: h-shadow v-shadow blur-radius color
+//        text-shadow: 4px 4px 10px $dgrey;
+//    }
+//    
+//}
+//    
+//}
+//
+//.second{
+//    background-image: url(../img/upfeathers/upfeathers.png);
+//    .events{
+//        padding: 10px 50px;
+//        background: $dgrey;
+//        min-height: 298px;
+//        table{
+//            border: solid $dgrey 5px;
+//            background: $grey;
+//
+//            th{
+//                background: $black75;
+//                color: $white;
+//                border-left-color: $black;
+//            }
+//            td{
+//                border-left-color: $dgrey;
+//            }
+//        }
+//    }
+//    .shape{
+//        width: 0%;
+//	    height: 100%;
+//        float: right;
+//	    border-top: 300px solid $dgrey;
+//        border-left:20px solid transparent;
+//        position: absolute;
+//        -ms-transform: translate(650px, -10px);
+//        -moz-transform: translate(650px, -10px);
+//        -webkit-transform: translate(750px, -10px);
+//        -o-transform: translate(650px, -10px);
+//        transform: translate(650px, -10px);
+//
+//    }
+//    .practice{
+//        padding: 10px 50px;
+//        background-color: $black75;
+//        min-height: 307px;
+//        color: $white;
+//        font-size: 18px;
+//        p{
+//            line-height: 25px;
+//        }
+//        address{
+//            text-align: center;
+//            font-size: 18px;
+//        }
+//    }
+//}
+//
+//.third{
+//    background-color: $grey;
+//    .schedule{
+//        padding: 10px 100px;
+//        table{
+//            background-color: $green5;
+//            border: solid $green 10px;
+//            border-style: solid;
+//            border-width: 20px;
+//            -moz-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+//            -webkit-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+//            -o-border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+//            border-image: url(../img/retina_wood/retina_wood.png) 20px stretch;
+//           // max-width: 75%;
+//        }
+//    }
+//}
+//
+//.fourth{
+//    min-height: 200px;
+//    background-color: $dgrey75;
+//    color:$black;
+//    font-size: 20px;
+//    .media{
+//        line-height: 400px;
+//        vertical-align: middle;
+//        text-align: center;
+//        font-size: 200%;
+//    }
+//    a{
+//        color: $black;
+//    }
+//    a:hover{
+//        color:$green;
+//    }
+//    .contact{
+//        background-color:$grey5;
+//    }
+//    form{
+//        padding: 10px 70px;
+//        button{
+//            align-items: center;
+//        }
+//    }
+//    
+//}
+//
+//.footer{
+//    background-color: $black;
+//    font-size: 12px;
+//    color:$white;
+//    padding-top: 10px;
+//    .social{
+//        font-size: 18px;
+//        text-align: center;
+//        a{
+//            padding:10px;
+//            color: $grey;
+//        }
+//    }
+//
+//}
 
 
 
