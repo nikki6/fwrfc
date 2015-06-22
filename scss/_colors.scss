@@ -1,6 +1,3 @@
-@import '../../scss/ashbury';
-@import '../../scss/sofia';
-
 //Variables
 //Colors
 //$green: rgba(99, 140, 14, 1);
@@ -41,61 +38,3 @@ $grey75: rgba(204, 204, 207, .75);
 //$grey75: rgba(195, 202, 210, .75);
 //$white75: rgba(248, 249, 251, .75);
 $white75: rgba(238, 239, 241, .75);
-
-
-//fonts
-$headings:'sofia';
-$text:'ashbury';
-
-body{
-    margin-top: 90px;
-    background-color: $black;
-    color: $white;
-    font-family: $text;
-    
-}
-
-.rosterForm{
-    color: $white;
-    font-size: 20px;
-    form{
-        padding: 50px 50px;
-        label{
-            margin-bottom: 20px;
-            margin-right:5px;
-        }
-    }
-}
-
-.loginForm{
-    font-size: 25px;
-    padding: 0px;
-    padding-left: -200px;
-    
-    button{
-        margin-left: 50%;
-        text-align: center;
-    }
-    
-}
-
-
-.basic{
-    h1{
-        font-family: $headings;
-        text-align: center;
-        background-color: #27ae60;
-        border-top: solid 1px #27ae60;
-        padding: 10px 30px;
-        border-radius: 10px;
-        margin:0px;
-    }
-    form{
-        padding:10px 30px;
-        margin: 0px;
-        background-color: #27ae60;
-        border: solid 1px #27ae60;
-        border-radius: 10px;
-    }
-}
-

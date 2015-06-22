@@ -58,9 +58,18 @@
   font-style: normal; }
 body {
   margin-top: 90px;
-  background-color: #5d5d5d;
+  background-color: #050306;
   color: #eeeff1;
   font-family: "ashbury"; }
+
+.rosterForm {
+  color: #eeeff1;
+  font-size: 20px; }
+  .rosterForm form {
+    padding: 50px 50px; }
+    .rosterForm form label {
+      margin-bottom: 20px;
+      margin-right: 5px; }
 
 .loginForm {
   font-size: 25px;

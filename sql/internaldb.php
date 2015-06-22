@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Fixed Top Navbar Example for Bootstrap</title>
+    <title>FWRFC Admin Login</title>
     <!-- CSS Reset   -->
     <link href="scss/normalize.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
@@ -44,6 +44,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Home</a>
                     </li>
+                     <li><a href="../index.php">Go to Webpage</a>
+                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Forms <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -63,6 +65,7 @@
         </div>
     </nav>
     <!--  End of Navigation Bar  -->
+<!--
     <div class = "container basic">
         <div class = "row loginForm">
               <div class = "col-xs-10 col-sm-10 col-md-4 col-lg-4 col-md-offest-4 col-lg-offset-4">
@@ -81,7 +84,14 @@
                 </div>
             </div>
     </div>
+-->
+ 
+    <div class="container">
+        <?php
+            include("forms/rosterForm.php");
+        ?>
     
+    </div>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="scss/bootstrap.min.js"></script>
