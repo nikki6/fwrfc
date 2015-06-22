@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Fixed Top Navbar Example for Bootstrap</title>
+    <title>Frederick Women's Rugby Football Club</title>
     <!-- CSS Reset   -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->

@@ -152,7 +152,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc; }
 
 .banner {
-  background-image: url(../img/FWRFCFabHeaderWhiteWithBackground.png);
+  background-image: url(../img/grassTex/wet_grass_black.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -160,11 +160,15 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   min-height: 500px; }
 
 .jumbotron {
-  margin: 100px 20px 50px 500px;
-  padding: 100px 50px;
+  background-image: url(../img/titleBanners/fwrfcxplorwhite.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 5% 15% 5% 15%;
+  min-width: 100px;
+  max-width: 1200px;
+  min-height: 400px;
   background-color: transparent;
   text-align: right;
-  border-radius: 10px;
   font-family: "sofia";
   color: #eeeff1; }
   .jumbotron small {

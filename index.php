@@ -1,8 +1,5 @@
 <?php
-    include_once("inc/contactForm.php");
-?>
-
-<?php
+    //include("inc/contactForm.php");
     include("inc/header.php");
 ?>
     <!--  Banner  -->
