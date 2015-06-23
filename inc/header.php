@@ -57,6 +57,17 @@
                     </li>
                     <li><a href="#about">Media</a>
                     </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Our Teams <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">FRFC</a>
+                            </li>
+                            <li><a href="#">Youth</a>
+                            </li>
+                            <li><a href="#">Old Boys</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <!--/.nav-collapse -->

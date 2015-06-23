@@ -10,7 +10,7 @@ body {
   //min-height: 2000px;
   //padding-top: 50px;
   //padding-bottom: 20px;
-    font-family: $text;
+    font-family: $headings;
     font-size: 18px;
 }
 
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5{
 //Beggining of Navigation Color Changes
 
 .navbar{
-    background-color: $dgrey75;
+    background-color: $dgrey;
 }
 
 .navbar-default .navbar-brand{
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5{
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: $dgrey;
-  background-color: $white75;
+  background-color: $white;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -118,70 +118,162 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .banner{
     margin-right:0px;
+    background-image: url(../img/grassTex/wet_grass_black.png);
+    img{
+        margin-left: 15%;
+        margin-top: 80px;
+        margin-bottom: 12.5%;
+        padding-top: 2%;
+        width: 900px;
+    }
 }
 
 #history{
     border-bottom: 3px solid $dgrey;
+   
     img#logo{
         margin-left: 44.5%;
+        padding-top: 30px;
     }
-    h2{
+    h1{
         text-align: center;
     }
     p{
+        color: $black;
+        font-size: 20px;
         margin: 10px 100px 30px 100px;
         
     }
 }
-
+#sponser{
+    background-color: $green;
+    color: white;
+    .sponsers{
+        margin-bottom: 50px;
+        img{
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+    }
+}
 #pe{
+    border-bottom: 3px solid $dgrey;
+    background-color: $dgrey;
     .practice{
         height: 100%;
-        padding: 0px 100px;
+        padding: 0px 100px 100px 40px;
+        background-color: $white;
+        color: $dgrey;
         address{
             
             text-align: center;
         }
     }
     .events{
-
+        h1{
+         color:$white;   
+        }
+        border-left: 3px solid $dgrey;
+        table{
+            border: 2px solid $dgrey;
+            background-color: $grey;
+            th{
+                font-size: 20px;
+            }
+        }
     }
 }
 
 #games{
     padding: 2% 0% 2% 35%;
-    h2{
+    h1{
     }
     table{
+        border: 2px solid $dgrey;
         th{
-            
+           font-size: 20px; 
         }
     }
 }
 
 #mr{
+    height: 400px;
+    background-image: url("../img/diamond_upholstery/diamond_upholstery.png");
+    background-size: contain;
+    background-repeat: repeat;
+    font-size: 32px;
     .media{
+        padding-top: 12.5%;
+        text-align: center;
+        img{
+           // height:100px;
+        }
     }
     .roster{
+        background-color: $dgrey;
+        min-height: 400px;
+        padding-top: 12.5%;
+        text-align: center;
+        span{
+            width: 75px;
+        }
+        a{
+            color: $white;
+        }
+        a:hover{
+            color: $grey;
+            text-decoration: none;
+        }
     }
     a{
     }
 }
 
-#contact{
-    h3{
+#contactandpay{
+    h1{
     }
     form{
+    }
+    #pay{
+        
+    }
+}
+.end{
+  //  background-color: $black;
+    color:$white;
+    margin: 0px;
+}
+
+#important{
+    padding-bottom: 20px;
+    #cipp{
+        img{
+            width:100px;
+        }
+    }
+}
+
+#feeds{
+    height: 400px;
+    background-color: $grey;
+    #tw{
+    }
+    #fb{
     }
 }
 
 #footer{
-    a{
+    background-color: $black;
+    padding-left: 37%;
+    img{
+        margin-top: 20px;
     }
 }
 
 #footer2{
-    h3{
+    background-color: $black;    
+    text-align: center;
+    h2{
     }
 }
 
