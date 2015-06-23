@@ -56,13 +56,6 @@
   src: url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.woff2") format("woff2"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.woff") format("woff"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.ttf") format("truetype"), url("../fonts/Sofia/Webfonts/sofia/SofiaProLight-webfont.svg#sofia_prolight") format("svg");
   font-weight: normal;
   font-style: normal; }
-body {
-  font-family: "sofia";
-  font-size: 18px; }
-
-h1, h2, h3, h4, h5 {
-  font-family: "sofia"; }
-
 .navbar {
   background-color: #5d5d5d; }
 
@@ -151,18 +144,29 @@ fieldset[disabled] .navbar-default .btn-link:hover,
 fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc; }
 
+body {
+  font-family: "sofia";
+  font-size: 20px;
+  padding-top: 50px; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "sofia"; }
+
 .banner {
   margin-right: 0px;
-  background-image: url(../img/grassTex/wet_grass_black.png); }
+  background-image: url(../img/grassTex/wet_grass_black.png);
+  text-align: center; }
   .banner img {
-    margin-left: 15%;
-    margin-top: 80px;
+    margin-top: 90px;
     margin-bottom: 12.5%;
-    padding-top: 2%;
-    width: 900px; }
+    padding-top: 20px;
+    width: 1000px; }
 
 #history {
-  border-bottom: 3px solid #5d5d5d; }
+  border-bottom: 3px solid #5d5d5d;
+  background-color: #cccccf;
+  background-image: url("../img/silver_scales/silver_scales.png");
+  box-shadow: 0px 10px 20px 0px #5d5d5d inset; }
   #history img#logo {
     margin-left: 44.5%;
     padding-top: 30px; }
@@ -171,11 +175,16 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   #history p {
     color: #050306;
     font-size: 20px;
-    margin: 10px 100px 30px 100px; }
+    margin: 10px 200px 30px 200px; }
 
 #sponser {
   background-color: #4c8014;
-  color: white; }
+  background-image: url("../img/tree_bark/tree_bark.png");
+  background-position: center;
+  background-repeat: repeat;
+  text-align: center;
+  border-bottom: 5px solid #5d5d5d;
+  color: #5d5d5d; }
   #sponser .sponsers {
     margin-bottom: 50px; }
     #sponser .sponsers img {
@@ -187,9 +196,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #5d5d5d; }
   #pe .practice {
     height: 100%;
-    padding: 0px 100px 100px 40px;
+    padding: 0px 100px 60px 40px;
     background-color: #eeeff1;
     color: #5d5d5d; }
+    #pe .practice p {
+      padding-top: 3%; }
     #pe .practice address {
       text-align: center; }
   #pe .events {
@@ -203,25 +214,46 @@ fieldset[disabled] .navbar-default .btn-link:focus {
         font-size: 20px; }
 
 #games {
-  padding: 2% 0% 2% 35%; }
+  text-align: center;
+  border-bottom: 5px solid #5d5d5d;
+  background-image: url("../img/fabric_plaid/fabric_plaid_@2X.png"); }
+  #games h1 {
+    padding: 20px; }
   #games table {
-    border: 2px solid #5d5d5d; }
+    border: 2px solid #5d5d5d;
+    text-align: center; }
+    #games table tr {
+      background-color: #cccccf;
+      border-bottom: 2px solid #5d5d5d; }
+      #games table tr td {
+        border-right: 2px solid #5d5d5d; }
+    #games table tr:nth-child(even) {
+      background-color: #eeeff1;
+      border-bottom: 2px solid #5d5d5d; }
+      #games table tr:nth-child(even) td {
+        border-right: 2px solid #5d5d5d; }
     #games table th {
-      font-size: 20px; }
+      font-size: 20px;
+      background-color: rgba(93, 93, 93, 0.5);
+      font-weight: 900;
+      text-align: center;
+      border-right: 2px solid #5d5d5d;
+      border-bottom: 2px solid #5d5d5d; }
 
 #mr {
   height: 400px;
-  background-image: url("../img/diamond_upholstery/diamond_upholstery.png");
+  background-image: url("../img/swirl/swirl.png");
   background-size: contain;
   background-repeat: repeat;
   font-size: 32px; }
   #mr .media {
-    padding-top: 12.5%;
+    min-height: 400px;
+    padding-top: 150px;
     text-align: center; }
   #mr .roster {
     background-color: #5d5d5d;
     min-height: 400px;
-    padding-top: 12.5%;
+    padding-top: 150px;
     text-align: center; }
     #mr .roster span {
       width: 75px; }
@@ -231,27 +263,66 @@ fieldset[disabled] .navbar-default .btn-link:focus {
       color: #cccccf;
       text-decoration: none; }
 
+#contactandpay {
+  height: 405px;
+  background-color: #cccccf;
+  border: 5px solid rgba(5, 3, 6, 0.5); }
+  #contactandpay .contact small {
+    color: #5d5d5d; }
+  #contactandpay .contact form {
+    padding-right: 40px; }
+  #contactandpay #pay {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 398px;
+    background-color: rgba(76, 128, 20, 0.5);
+    border-left: 5px solid #5d5d5d; }
+
 .end {
   color: #eeeff1;
   margin: 0px; }
 
 #important {
-  padding-bottom: 20px; }
-  #important #cipp img {
-    width: 100px; }
+  background-image: url("../img/swirl_pattern.png"); }
+  #important #cipp {
+    color: #eeeff1;
+    padding-left: 20px;
+    background-color: rgba(5, 3, 6, 0.75);
+    padding-bottom: 30px; }
+    #important #cipp a {
+      color: #eeeff1;
+      font-weight: 700; }
+    #important #cipp a:hover {
+      color: #050306; }
+    #important #cipp img {
+      width: 100px; }
+  #important #docs {
+    background-color: rgba(238, 239, 241, 0.75);
+    min-height: 419px; }
 
 #feeds {
-  height: 400px;
   background-color: #cccccf; }
+  #feeds #fb {
+    color: #eeeff1;
+    background-color: #5d5d5d;
+    min-height: 600px;
+    padding-left: 20px;
+    text-align: center; }
+    #feeds #fb h1 {
+      padding-bottom: 20px;
+      text-align: left; }
 
 #footer {
   background-color: #050306;
-  padding-left: 37%; }
+  text-align: center; }
   #footer img {
     margin-top: 20px; }
 
 #footer2 {
   background-color: #050306;
   text-align: center; }
+  #footer2 h2 {
+    padding: 30px; }
 
 /*# sourceMappingURL=main.css.map */

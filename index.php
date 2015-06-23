@@ -12,7 +12,7 @@
         <div class="row first">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about" id="history">
 <!--                <img src="img/leftsideoflogo.png" alt="-----">-->
-                <img src="img/FWRFC_Logo_Art.gif" alt="FWRFC" id="logo">
+                <img src="img/FWRFC_Logo_Art.png" alt="FWRFC" id="logo">
 <!--                <img src="img/leftsideoflogo.png" alt="-----">-->
                 <h1>About The Team</h1>
                 <p>
@@ -84,7 +84,7 @@
             </div>
         </div>
         <div class="row third" id="games">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 schedule">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 schedule">
                 <h1>Our Schedule</h1>
                 <table class="table table-striped table-bordered">
                     <thead>
@@ -177,7 +177,7 @@
                 </form>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="pay">
-                <h1>Pay for Dues, Donate to our Team and Buy All The Swag!!!</h1>
+                <h1>Pay for Dues, Donate to our Team and Buy All The <b>Swag!!!</b></h1>
             </div>
         </div>
          <div class="row" id="important">
@@ -203,9 +203,19 @@
         <div class="row" id="feeds">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="fb">
                 <h1>Facebook Feed</h1>
+                <div class="fb-page" data-href="https://www.facebook.com/FWRFC" data-width="700px" data-height="Min. 400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+                    <div class="fb-xfbml-parse-ignore">
+                        <blockquote cite="https://www.facebook.com/FWRFC">
+                            <a href="https://www.facebook.com/FWRFC">Frederick Womens Rugby Football Club</a>
+                        </blockquote>
+                    </div>
+                </div>
             </div>
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="tw">
                 <h1>Twitter Feed</h1>
+                    <a class="twitter-timeline" data-widget-id="600720083413962752" href="https://twitter.com/TwitterDev" data-tweet-limit="3">
+                        Tweets by @FWRFC
+                    </a>
             </div>
         </div>
         <div class="end">

@@ -27,7 +27,15 @@
 </head>
 
 <body>
-
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -42,25 +50,25 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a>
+                    <li><a href="#banner">Home</a>
                     </li>
-                    <li><a href="#about">About</a>
+                    <li><a href="#history">About</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">The Team <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Our Roster</a>
+                            <li><a href="roster.php">Our Roster</a>
                             </li>
-                            <li><a href="#">The Schedule</a>
+                            <li><a href="#games">The Schedule</a>
                             </li>
                         </ul>
                     </li>
-                    <li><a href="#about">Media</a>
+                    <li><a href="media.php">Media</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Our Teams <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">FRFC</a>
+                            <li><a href="www.frederickrugby.org">FRFC</a>
                             </li>
                             <li><a href="#">Youth</a>
                             </li>

@@ -1,7 +1,7 @@
 @import 'ashbury';
 @import 'sofia';
 @import 'colors';
-
+@import 'nav';
 //fonts
 $headings:'sofia';
 $text:'ashbury';
@@ -11,7 +11,8 @@ body {
   //padding-top: 50px;
   //padding-bottom: 20px;
     font-family: $headings;
-    font-size: 18px;
+    font-size: 20px;
+    padding-top: 50px;
 }
 
 h1, h2, h3, h4, h5{
@@ -19,118 +20,27 @@ h1, h2, h3, h4, h5{
    // font-size: 275%;
 }
 
-//Beggining of Navigation Color Changes
 
-.navbar{
-    background-color: $dgrey;
-}
-
-.navbar-default .navbar-brand{
-    color:$white;
-}
-.navbar-default .navbar-text {
-  color: $white;
-}
-.navbar-default .navbar-nav > li > a {
-  color: $white;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: $black;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: $dgrey;
-  background-color: $white;
-}
-.navbar-default .navbar-nav > .disabled > a,
-.navbar-default .navbar-nav > .disabled > a:hover,
-.navbar-default .navbar-nav > .disabled > a:focus {
-  color: $grey;
-  background-color: transparent;
-}
-.navbar-default .navbar-toggle {
-  border-color: $white;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: $white;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: $dgrey;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: $grey;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: $green;
-  background-color: $dgrey;
-}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: $dgrey;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: $black;
-    background-color: transparent;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: $dgrey;
-    background-color: $white;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: $grey;
-    background-color: transparent;
-  }
-}
-.navbar-default .navbar-link {
-  color: $dgrey;
-}
-.navbar-default .navbar-link:hover {
-  color: $green;
-}
-.navbar-default .btn-link {
-  color: #777;
-}
-.navbar-default .btn-link:hover,
-.navbar-default .btn-link:focus {
-  color: #333;
-}
-.navbar-default .btn-link[disabled]:hover,
-fieldset[disabled] .navbar-default .btn-link:hover,
-.navbar-default .btn-link[disabled]:focus,
-fieldset[disabled] .navbar-default .btn-link:focus {
-  color: #ccc;
-}
-
-//End of Navigation Color Changes
 //Version 2 Added on June 22 
 
 .banner{
     margin-right:0px;
     background-image: url(../img/grassTex/wet_grass_black.png);
+    text-align: center;
     img{
-        margin-left: 15%;
-        margin-top: 80px;
+        //margin-left: 5%;
+        margin-top: 90px;
         margin-bottom: 12.5%;
-        padding-top: 2%;
-        width: 900px;
+        padding-top: 20px;
+        width: 1000px;
     }
 }
 
 #history{
     border-bottom: 3px solid $dgrey;
-   
+    background-color: $grey;
+    background-image: url("../img/silver_scales/silver_scales.png");
+    box-shadow: 0px 10px 20px 0px $dgrey inset;
     img#logo{
         margin-left: 44.5%;
         padding-top: 30px;
@@ -141,13 +51,18 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     p{
         color: $black;
         font-size: 20px;
-        margin: 10px 100px 30px 100px;
+        margin: 10px 200px 30px 200px;
         
     }
 }
 #sponser{
     background-color: $green;
-    color: white;
+    background-image: url("../img/tree_bark/tree_bark.png");
+    background-position: center;
+    background-repeat: repeat;
+    text-align: center;
+    border-bottom: 5px solid $dgrey;
+    color: $dgrey;
     .sponsers{
         margin-bottom: 50px;
         img{
@@ -157,13 +72,17 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     }
 }
 #pe{
+    //border-top: 3px solid $grey;
     border-bottom: 3px solid $dgrey;
     background-color: $dgrey;
     .practice{
         height: 100%;
-        padding: 0px 100px 100px 40px;
+        padding: 0px 100px 60px 40px;
         background-color: $white;
         color: $dgrey;
+        p{
+            padding-top: 3%;
+        }
         address{
             
             text-align: center;
@@ -185,25 +104,50 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 #games{
-    padding: 2% 0% 2% 35%;
+    text-align: center;
+    border-bottom: 5px solid $dgrey;
+    //padding: 2% 0% 2% 2%;
+    background-image: url("../img/fabric_plaid/fabric_plaid_@2X.png");
     h1{
+        padding: 20px;
     }
     table{
         border: 2px solid $dgrey;
+        text-align: center;
+        tr{
+            background-color: $grey;            
+            border-bottom: 2px solid $dgrey;
+            td{
+                border-right: 2px solid $dgrey;
+            }
+        }
+        tr:nth-child(even){
+            background-color: $white;
+            border-bottom: 2px solid $dgrey;
+            td{
+                border-right: 2px solid $dgrey;
+            }
+        }
         th{
-           font-size: 20px; 
+            font-size: 20px; 
+            background-color: $dgrey5;
+            font-weight: 900;
+            text-align: center;
+            border-right: 2px solid $dgrey;
+            border-bottom: 2px solid $dgrey;
         }
     }
 }
 
 #mr{
     height: 400px;
-    background-image: url("../img/diamond_upholstery/diamond_upholstery.png");
+    background-image: url("../img/swirl/swirl.png");
     background-size: contain;
     background-repeat: repeat;
     font-size: 32px;
     .media{
-        padding-top: 12.5%;
+        min-height: 400px;
+        padding-top: 150px;
         text-align: center;
         img{
            // height:100px;
@@ -212,7 +156,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     .roster{
         background-color: $dgrey;
         min-height: 400px;
-        padding-top: 12.5%;
+        padding-top: 150px;
         text-align: center;
         span{
             width: 75px;
@@ -230,12 +174,28 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 #contactandpay{
+    height: 405px;
+    background-color: $grey;
+    border: 5px solid $black5;
     h1{
     }
-    form{
+    .contact{
+        //border-right: 3px solid $black5;
+        small{
+            color: $dgrey;
+        }
+        form{
+            padding-right:40px;
+        }
     }
     #pay{
-        
+        text-align: justify;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 398px;
+        background-color: $green5;
+        border-left: 5px solid $dgrey;
+        //background-image: url("../img/textured_stripes/textured_stripes.png"); 
     }
 }
 .end{
@@ -245,26 +205,54 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 
 #important{
-    padding-bottom: 20px;
+    background-image: url("../img/swirl_pattern.png");
     #cipp{
+        color: $white;
+        padding-left: 20px;
+        background-color: $black75;
+        padding-bottom: 30px;
+       // min-height: 500px;
+        a{
+            color: $white;
+            font-weight: 700;
+        }
+        a:hover{
+            color: $black;
+        }
         img{
             width:100px;
         }
     }
+    #docs{
+        background-color: $white75;
+        min-height: 419px;
+    }
 }
 
 #feeds{
-    height: 400px;
+    //height: 400px;
     background-color: $grey;
     #tw{
     }
     #fb{
+        color: $white;
+        background-color: $dgrey;
+        min-height: 600px;
+        padding-left: 20px;
+        text-align: center;
+        h1{
+            padding-bottom: 20px;
+            text-align: left;
+        }
+        .fb-page{
+            
+        }
     }
 }
 
 #footer{
     background-color: $black;
-    padding-left: 37%;
+    text-align: center;
     img{
         margin-top: 20px;
     }
@@ -274,6 +262,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: $black;    
     text-align: center;
     h2{
+        padding:30px;
     }
 }
 
