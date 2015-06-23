@@ -70,14 +70,14 @@
                             <td>The Farm</td>
                         </tr>
                         <tr>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
+                            <td>June 27</td>
+                            <td>Harrisburg 7s</td>
+                            <td>Harrisburg, PA</td>
                         </tr>
                         <tr>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
+                            <td>July 13</td>
+                            <td>Steel City 7s</td>
+                            <td>Pittsburg, PA</td>
                         </tr>
                     </tbody>
                 </table>
@@ -177,7 +177,7 @@
                 </form>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="pay">
-                <h1>Pay for Dues, Donate to our Team and Buy Swag</h1>
+                <h1>Pay for Dues, Donate to our Team and Buy All The Swag!!!</h1>
             </div>
         </div>
          <div class="row" id="important">
