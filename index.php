@@ -5,7 +5,7 @@
     <!--  Banner  -->
     <div class="row banner">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="img/titleBanners/fwrfcxplorwhite.png" alt="Frederick Women's Rugby Football Club">
+            <img src="img/titleBanners/FWRFCTitle_12.png" alt="Frederick Women's Rugby Football Club">
         </div>
     </div>
     <div class="container-fluid">
@@ -197,7 +197,7 @@
                             </select>
                             <br>
                             <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class = "button">
+                            <input type="image" src="img/buttons/add_Normal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class = "button">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
@@ -213,7 +213,7 @@
                             </select>
                             <br>
                             <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class = "button">
+                            <input type="image" src="img/buttons/add_Normal.png" border="0" name="submit" alt="Add to Cart" class = "button">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
