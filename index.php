@@ -177,7 +177,58 @@
                 </form>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="pay">
-                <h1>Pay for Dues, Donate to our Team and Buy All The <b>Swag!!!</b></h1>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h1>Pay for Dues, Donate to our Team and Buy All The <b>Swag!!!</b></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="dues">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="GMZJDL959EHKE">
+                            <input type="hidden" name="on0" value="Winter Banquet, Calendars & Spring Player Dues">
+                                <h3>Player Dues</h3>
+                            <select name="os0">
+                                <option value="Returning/Non-Student">Returning/Non-Student $76.99 USD</option>
+                                <option value="Rookie/Returning Students">Rookie/Returning Students $56.54 USD</option>
+                                <option value="Social Dues/ Monthly Pay">Social Dues/ Monthly Pay $25.87 USD</option>
+                                <option value="Sevens Tournament Dues">7s Tournament Dues $20.76 USD</option>
+                            </select>
+                            <br>
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class = "button">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="banquets">
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="58YB24KP9DBWQ">
+
+                            <input type="hidden" name="on0" value="Pig Roast RSVP">
+                                <h3>Pig Roast RSVP</h3>
+                            <select name="os0">
+                                <option value="Pig Roast RSVP">Pig Roast RSVP $31.06 USD</option>
+                            </select>
+                            <br>
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class = "button">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="donate">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="U3Y58RHZ6K2B2">
+                            <h3>Support Us!</h3>
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
          <div class="row" id="important">
@@ -198,6 +249,15 @@
             </div>
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="docs">
                 <h1>Google Docs and Things Like That</h1>
+                <div class="media">
+                  <a class="pull-left" href="https://docs.google.com/forms/d/1Svje9yPiRF-ibUm5YkZvIoU_JOBlHKs6799oA1Iwlro/viewform?usp=send_form">
+                    <img class="media-object img-responsive" src="img/text_document.png" alt="document">
+                  </a>
+                  <div class="media-body">
+                    <h2>Emergency Info Sheet</h2>
+                    <p>Complete by the first match</a></p>
+                  </div>
+                </div>
             </div>
         </div>
         <div class="row" id="feeds">

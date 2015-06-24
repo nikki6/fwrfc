@@ -278,6 +278,16 @@ h1, h2, h3, h4, h5 {
     min-height: 398px;
     background-color: rgba(76, 128, 20, 0.5);
     border-left: 5px solid #5d5d5d; }
+    #contactandpay #pay form {
+      padding-left: 50px; }
+    #contactandpay #pay #dues .button {
+      padding-top: 10px;
+      margin-left: 25%; }
+    #contactandpay #pay #banquets .button {
+      padding-top: 10px;
+      margin-left: 25%; }
+    #contactandpay #pay #donate {
+      text-align: center; }
 
 .end {
   color: #eeeff1;

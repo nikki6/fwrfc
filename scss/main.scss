@@ -195,6 +195,26 @@ h1, h2, h3, h4, h5{
         min-height: 398px;
         background-color: $green5;
         border-left: 5px solid $dgrey;
+        form{
+            padding-left: 50px;
+            
+        }
+        
+        #dues{
+            .button{
+                padding-top: 10px;
+                margin-left: 25%;
+            }
+        }
+        #banquets{
+            .button{
+                padding-top: 10px;
+                margin-left: 25%;
+            }
+        }
+        #donate{
+            text-align: center;
+        }
         //background-image: url("../img/textured_stripes/textured_stripes.png"); 
     }
 }
