@@ -1,0 +1,3046 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="FWRFCHeader.svg">
+  <defs
+     id="defs4">
+    <filter
+       id="filter3960"
+       inkscape:label="Wax print"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Wax print on tissue texture"
+       height="1.4"
+       y="-0.2"
+       width="1.4"
+       x="-0.2"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3962"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="2" />
+      <feTurbulence
+         id="feTurbulence3964"
+         result="result0"
+         numOctaves="5"
+         baseFrequency="0.05"
+         type="fractalNoise" />
+      <feDisplacementMap
+         id="feDisplacementMap3966"
+         in2="result0"
+         result="result2"
+         scale="10"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix3968"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+         result="result3" />
+      <feBlend
+         id="feBlend3970"
+         in2="result3"
+         mode="multiply"
+         in="result2"
+         result="result5" />
+      <feGaussianBlur
+         id="feGaussianBlur3972"
+         result="result4"
+         in="result3"
+         stdDeviation="5" />
+      <feComposite
+         id="feComposite3974"
+         in2="result5"
+         k1="0.5"
+         k3="1.5"
+         k2="0.15"
+         in="result4"
+         operator="arithmetic"
+         result="result6" />
+      <feComposite
+         id="feComposite3976"
+         in2="result4"
+         operator="in"
+         in="result6" />
+    </filter>
+    <filter
+       id="filter5880"
+       inkscape:label="Ink bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5882"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5884"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5886"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5888"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur5890"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite5892"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter5894"
+       inkscape:label="Ink bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5896"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5898"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5900"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5902"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur5904"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite5906"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter5908"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB"
+       style="color-interpolation-filters:sRGB;">
+      <feGaussianBlur
+         id="feGaussianBlur5910"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5912"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5914"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5916"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur5918"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite5920"
+         in2="result3"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5293" />
+      <feFlood
+         id="feFlood5295"
+         flood-opacity="0.721"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5297"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5299"
+         in="composite"
+         stdDeviation="8.9"
+         result="blur" />
+      <feOffset
+         id="feOffset5301"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5303"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter5922"
+       inkscape:label="Ink bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur5924"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5926"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5928"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5930"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur5932"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite5934"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter5936"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB"
+       style="color-interpolation-filters:sRGB;">
+      <feGaussianBlur
+         id="feGaussianBlur5938"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5940"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5942"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5944"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur5946"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite5948"
+         in2="result3"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5281" />
+      <feFlood
+         id="feFlood5283"
+         flood-opacity="0.721"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5285"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5287"
+         in="composite"
+         stdDeviation="8.9"
+         result="blur" />
+      <feOffset
+         id="feOffset5289"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5291"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter5950"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB"
+       style="color-interpolation-filters:sRGB;">
+      <feGaussianBlur
+         id="feGaussianBlur5952"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5954"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5956"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5958"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur5960"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite5962"
+         in2="result3"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5317" />
+      <feFlood
+         id="feFlood5319"
+         flood-opacity="0.721"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5321"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5323"
+         in="composite"
+         stdDeviation="8.9"
+         result="blur" />
+      <feOffset
+         id="feOffset5325"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5327"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter5964"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB"
+       style="color-interpolation-filters:sRGB;">
+      <feGaussianBlur
+         id="feGaussianBlur5966"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5968"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5970"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5972"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur5974"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite5976"
+         in2="result3"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5305" />
+      <feFlood
+         id="feFlood5307"
+         flood-opacity="0.721"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5309"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5311"
+         in="composite"
+         stdDeviation="8.9"
+         result="blur" />
+      <feOffset
+         id="feOffset5313"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5315"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter5978"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB"
+       style="color-interpolation-filters:sRGB;">
+      <feGaussianBlur
+         id="feGaussianBlur5980"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5982"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5984"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5986"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur5988"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite5990"
+         in2="result3"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5269" />
+      <feFlood
+         id="feFlood5271"
+         flood-opacity="0.721"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5273"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5275"
+         in="composite"
+         stdDeviation="8.9"
+         result="blur" />
+      <feOffset
+         id="feOffset5277"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5279"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter5992"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB"
+       style="color-interpolation-filters:sRGB;">
+      <feGaussianBlur
+         id="feGaussianBlur5994"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence5996"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap5998"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix6000"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur6002"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite6004"
+         in2="result3"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5329" />
+      <feFlood
+         id="feFlood5331"
+         flood-opacity="0.721"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5333"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5335"
+         in="composite"
+         stdDeviation="8.9"
+         result="blur" />
+      <feOffset
+         id="feOffset5337"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5339"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter6006"
+       inkscape:label="Drop Shadow"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB"
+       style="color-interpolation-filters:sRGB;">
+      <feGaussianBlur
+         id="feGaussianBlur6008"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence6010"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap6012"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix6014"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur6016"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite6018"
+         in2="result3"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5257" />
+      <feFlood
+         id="feFlood5259"
+         flood-opacity="0.721"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5261"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5263"
+         in="composite"
+         stdDeviation="8.9"
+         result="blur" />
+      <feOffset
+         id="feOffset5265"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5267"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter6724"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6726"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6728"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6730"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6732"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6734"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6736"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7684" />
+      <feGaussianBlur
+         id="feGaussianBlur7686"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7688"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7690"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7692"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7694"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7696"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6738"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6740"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6742"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6744"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6746"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6748"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6750"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7698" />
+      <feGaussianBlur
+         id="feGaussianBlur7700"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7702"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7704"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7706"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7708"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7710"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6752"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6754"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6756"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6758"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6760"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6762"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6764"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7712" />
+      <feGaussianBlur
+         id="feGaussianBlur7714"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7716"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7718"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7720"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7722"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7724"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6766"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6768"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6770"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6772"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6774"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6776"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6778"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7726" />
+      <feGaussianBlur
+         id="feGaussianBlur7728"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7730"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7732"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7734"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7736"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7738"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6780"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6782"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6784"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6786"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6788"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6790"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6792"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7740" />
+      <feGaussianBlur
+         id="feGaussianBlur7742"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7744"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7746"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7748"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7750"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7752"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6794"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6796"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6798"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6800"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6802"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6804"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6806"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7754" />
+      <feGaussianBlur
+         id="feGaussianBlur7756"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7758"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7760"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7762"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7764"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7766"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6808"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6810"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6812"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6814"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6816"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6818"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6820"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7768" />
+      <feGaussianBlur
+         id="feGaussianBlur7770"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7772"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7774"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7776"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7778"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7780"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6822"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6824"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6826"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6828"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6830"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6832"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6834"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7782" />
+      <feGaussianBlur
+         id="feGaussianBlur7784"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7786"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7788"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7790"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7792"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7794"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6836"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6838"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6840"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6842"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6844"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6846"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6848"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7796" />
+      <feGaussianBlur
+         id="feGaussianBlur7798"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7800"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7802"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7804"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7806"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7808"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter6850"
+       inkscape:label="Ink bleed"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feTurbulence
+         id="feTurbulence6852"
+         baseFrequency="0.143"
+         numOctaves="5"
+         type="fractalNoise" />
+      <feColorMatrix
+         id="feColorMatrix6854"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3" />
+      <feMorphology
+         id="feMorphology6856"
+         result="result3"
+         radius="2.7"
+         operator="dilate" />
+      <feTurbulence
+         id="feTurbulence6858"
+         baseFrequency="0.121"
+         numOctaves="2"
+         result="result91" />
+      <feDisplacementMap
+         id="feDisplacementMap6860"
+         in2="result91"
+         result="result4"
+         scale="18.5"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3" />
+      <feComposite
+         id="feComposite6862"
+         in2="SourceGraphic"
+         operator="atop"
+         in="result4"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix7810" />
+      <feGaussianBlur
+         id="feGaussianBlur7812"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence7814"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap7816"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix7818"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur7820"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite7822"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter4153"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood4155"
+         flood-opacity="0.53"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite4157"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4159"
+         in="composite"
+         stdDeviation="30"
+         result="blur" />
+      <feOffset
+         id="feOffset4161"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite4163"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter4165"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood4167"
+         flood-opacity="0.53"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite4169"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4171"
+         in="composite"
+         stdDeviation="30"
+         result="blur" />
+      <feOffset
+         id="feOffset4173"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite4175"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter4177"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood4179"
+         flood-opacity="0.53"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite4181"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4183"
+         in="composite"
+         stdDeviation="30"
+         result="blur" />
+      <feOffset
+         id="feOffset4185"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite4187"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter4189"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood4191"
+         flood-opacity="0.53"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite4193"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4195"
+         in="composite"
+         stdDeviation="30"
+         result="blur" />
+      <feOffset
+         id="feOffset4197"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite4199"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter4201"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood4203"
+         flood-opacity="0.53"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite4205"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur4207"
+         in="composite"
+         stdDeviation="30"
+         result="blur" />
+      <feOffset
+         id="feOffset4209"
+         dx="6"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite4211"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter4851"
+       inkscape:label="Ink bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4853"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence4855"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap4857"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix4859"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur4861"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite4863"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter4865"
+       inkscape:label="Ink bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4867"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence4869"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap4871"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix4873"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur4875"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite4877"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter4879"
+       inkscape:label="Ink bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4881"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence4883"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap4885"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix4887"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur4889"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite4891"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter4893"
+       inkscape:label="Ink bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4895"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence4897"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap4899"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix4901"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur4903"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite4905"
+         in2="result3"
+         in="result4" />
+    </filter>
+    <filter
+       id="filter4907"
+       inkscape:label="Ink bleed"
+       inkscape:menu="Protrusions"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur4909"
+         result="result1"
+         in="SourceGraphic"
+         stdDeviation="1.3" />
+      <feTurbulence
+         id="feTurbulence4911"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap4913"
+         in2="result0"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix4915"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur4917"
+         result="result4"
+         in="SourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite4919"
+         in2="result3"
+         in="result4" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#7096b0"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.29701855"
+     inkscape:cx="-6272.5673"
+     inkscape:cy="7095.4619"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="838"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:564.35290527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.15050697;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-5444.186"
+       y="-490.91568"
+       id="text2985"
+       sodipodi:linespacing="125%"
+       transform="scale(0.8561553,1.1680124)"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="-5444.186"
+         y="-490.91568"
+         style="stroke-width:2.15050697">Frederick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:613.8706665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:1.87464213;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-3870.8938"
+       y="-423.62149"
+       id="text2989"
+       sodipodi:linespacing="125%"
+       transform="scale(0.80801166,1.2376059)"><tspan
+         sodipodi:role="line"
+         id="tspan2991"
+         x="-3870.8938"
+         y="-423.62149"
+         style="stroke-width:1.87464213">Womens</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:752.87591553px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.22593284;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-4708.7886"
+       y="57.451534"
+       id="text2993"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2995"
+         x="-4708.7886"
+         y="57.451534"
+         style="stroke-width:2.22593284">Rugby</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:447.84310913px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.06329894;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-4301.5381"
+       y="623.45215"
+       id="text2997"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1159362,0.89610857)"><tspan
+         sodipodi:role="line"
+         id="tspan2999"
+         x="-4301.5381"
+         y="623.45215"
+         style="stroke-width:2.06329894">Football</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1102.13098145px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:1.71077108;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-3558.8125"
+       y="471.82593"
+       id="text3001"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9287445,1.0767224)"><tspan
+         sodipodi:role="line"
+         id="tspan3003"
+         x="-3558.8125"
+         y="471.82593"
+         style="stroke-width:1.71077108">Club</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3014"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Segoe UI;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Segoe UI;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3016"><rect
+           id="rect3018"
+           width="3134.2856"
+           height="1211.4286"
+           x="242.85715"
+           y="-301.92352" /></flowRegion><flowPara
+         id="flowPara3020" /></flowRoot>    <text
+       sodipodi:linespacing="125%"
+       id="text3022"
+       y="-2137.5671"
+       x="-547.63104"
+       style="font-size:346.54037476px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Fonarto;-inkscape-font-specification:Fonarto"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcfontareowhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-2137.5671"
+         x="-547.63104"
+         id="tspan3024"
+         sodipodi:role="line">Frederick</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3026"
+       y="-2128.9915"
+       x="1037.6381"
+       style="font-size:348.93664551px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Fonarto;-inkscape-font-specification:Fonarto"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcfontareowhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-2128.9915"
+         x="1037.6381"
+         id="tspan3028"
+         sodipodi:role="line">Womens</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3030"
+       y="-1727.5837"
+       x="-559.18091"
+       style="font-size:513.87219238px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Fonarto;-inkscape-font-specification:Fonarto"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcfontareowhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-1727.5837"
+         x="-559.18091"
+         id="tspan3032"
+         sodipodi:role="line">Rugby</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3038"
+       y="-1677.3773"
+       x="1042.6168"
+       style="font-size:585.18280029px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Fonarto;-inkscape-font-specification:Fonarto"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcfontareowhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-1677.3773"
+         x="1042.6168"
+         id="tspan3040"
+         sodipodi:role="line">Club</tspan></text>
+    <g
+       id="g3878"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\FWRFCFabHeaderWhite.png"
+       inkscape:export-xdpi="20.105385"
+       inkscape:export-ydpi="20.105385"
+       transform="translate(386.63465,-2076.3713)">
+      <text
+         transform="matrix(0.9733758,-0.22921509,0.22921509,0.9733758,0,0)"
+         xml:space="preserve"
+         style="font-size:410.98135376px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         x="-1431.6842"
+         y="1188.1305"
+         id="text3042"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3044"
+           x="-1431.6842"
+           y="1188.1305">Frederick</tspan></text>
+      <text
+         transform="matrix(0.98272109,-0.18509259,0.18509259,0.98272109,0,0)"
+         xml:space="preserve"
+         style="font-size:404.36898804px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         x="-1938.2284"
+         y="1583.0872"
+         id="text3046"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3048"
+           x="-1938.2284"
+           y="1583.0872">Womens</tspan></text>
+      <text
+         transform="matrix(0.96987842,-0.24358953,0.24358953,0.96987842,0,0)"
+         xml:space="preserve"
+         style="font-size:446.45877075px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         x="-694.55811"
+         y="1549.2996"
+         id="text3050"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3052"
+           x="-694.55811"
+           y="1549.2996">Rugby</tspan></text>
+      <text
+         transform="matrix(0.96301767,-0.24416402,0.24056907,0.97740853,0,0)"
+         xml:space="preserve"
+         style="font-size:419.63491821px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         x="-2074.8831"
+         y="1908.856"
+         id="text3054"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3056"
+           x="-2074.8831"
+           y="1908.856">Football</tspan></text>
+      <text
+         transform="matrix(0.97392004,-0.22689151,0.22689151,0.97392004,0,0)"
+         xml:space="preserve"
+         style="font-size:436.84243774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         x="-641.3316"
+         y="1938.3301"
+         id="text3058"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3060"
+           x="-641.3316"
+           y="1938.3301">Club</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3062"
+       y="-717.62854"
+       x="1408.3519"
+       style="font-size:198.18296814px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2ffff;fill-opacity:1;stroke:none;font-family:Streetwear;-inkscape-font-specification:Streetwear"
+       xml:space="preserve"><tspan
+         y="-717.62854"
+         x="1408.3519"
+         id="tspan3064"
+         sodipodi:role="line">Frederick</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3066"
+       y="-731.37854"
+       x="2534.5361"
+       style="font-size:197.70344543px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2ffff;fill-opacity:1;stroke:none;font-family:Streetwear;-inkscape-font-specification:Streetwear"
+       xml:space="preserve"><tspan
+         y="-731.37854"
+         x="2534.5361"
+         id="tspan3068"
+         sodipodi:role="line">Womens</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3070"
+       y="-509.38907"
+       x="1360.6315"
+       style="font-size:168.15119934px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2ffff;fill-opacity:1;stroke:none;font-family:Streetwear;-inkscape-font-specification:Streetwear"
+       xml:space="preserve"><tspan
+         y="-509.38907"
+         x="1360.6315"
+         id="tspan3072"
+         sodipodi:role="line">Rugby</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3074"
+       y="-498.37881"
+       x="2093.3789"
+       style="font-size:176.12147522px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2ffff;fill-opacity:1;stroke:none;font-family:Streetwear;-inkscape-font-specification:Streetwear"
+       xml:space="preserve"><tspan
+         y="-498.37881"
+         x="2093.3789"
+         id="tspan3076"
+         sodipodi:role="line">Football</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3078"
+       y="-492.16055"
+       x="3011.1509"
+       style="font-size:186.23405457px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2ffff;fill-opacity:1;stroke:none;font-family:Streetwear;-inkscape-font-specification:Streetwear"
+       xml:space="preserve"><tspan
+         y="-492.16055"
+         x="3011.1509"
+         id="tspan3080"
+         sodipodi:role="line">Club</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3082"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Segoe UI;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Segoe UI;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion3084"><rect
+           id="rect3086"
+           width="2294.2856"
+           height="1102.8572"
+           x="1114.2858"
+           y="872.36218" /></flowRegion><flowPara
+         id="flowPara3088" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-size:284.67910767px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sofia;-inkscape-font-specification:Sofia"
+       x="1254.6558"
+       y="1052.7463"
+       id="text3090"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.9530779,-0.30272514,0.30272514,0.9530779,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3092"
+         x="1254.6558"
+         y="1052.7463">Frederick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:317.95678711px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sofia;-inkscape-font-specification:Sofia"
+       x="2526.4741"
+       y="888.0365"
+       id="text3094"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.97134188,-0.23768668,0.23768668,0.97134188,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3096"
+         x="2526.4741"
+         y="888.0365">Womens</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:310.34576416px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sofia;-inkscape-font-specification:Sofia"
+       x="1361.7102"
+       y="1379.3141"
+       id="text3098"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.95873525,-0.28430039,0.28430039,0.95873525,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3100"
+         x="1361.7102"
+         y="1379.3141">Rugby</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:277.61123657px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sofia;-inkscape-font-specification:Sofia"
+       x="2256.0229"
+       y="1252.1865"
+       id="text3102"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.97022682,-0.24219809,0.24219809,0.97022682,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3104"
+         x="2256.0229"
+         y="1252.1865">Football</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:297.00753784px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sofia;-inkscape-font-specification:Sofia"
+       x="3294.8215"
+       y="1266.134"
+       id="text3106"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.96892579,-0.24735159,0.24735159,0.96892579,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan3108"
+         x="3294.8215"
+         y="1266.134">Club</tspan></text>
+    <g
+       inkscape:export-ydpi="20.105385"
+       inkscape:export-xdpi="20.105385"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\FWRFCFabHeaderWhite.png"
+       id="g3920"
+       transform="translate(-37.313296,-570.28206)"
+       style="filter:url(#filter3960)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3922"
+         y="1188.1305"
+         x="-1431.6842"
+         style="font-size:410.98135376px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         xml:space="preserve"
+         transform="matrix(0.9733758,-0.22921509,0.22921509,0.9733758,0,0)"><tspan
+           y="1188.1305"
+           x="-1431.6842"
+           id="tspan3924"
+           sodipodi:role="line">Frederick</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3926"
+         y="1583.0872"
+         x="-1938.2284"
+         style="font-size:404.36898804px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         xml:space="preserve"
+         transform="matrix(0.98272109,-0.18509259,0.18509259,0.98272109,0,0)"><tspan
+           y="1583.0872"
+           x="-1938.2284"
+           id="tspan3928"
+           sodipodi:role="line">Womens</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3930"
+         y="1549.2996"
+         x="-694.55811"
+         style="font-size:446.45877075px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         xml:space="preserve"
+         transform="matrix(0.96987842,-0.24358953,0.24358953,0.96987842,0,0)"><tspan
+           y="1549.2996"
+           x="-694.55811"
+           id="tspan3932"
+           sodipodi:role="line">Rugby</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3934"
+         y="1908.856"
+         x="-2074.8831"
+         style="font-size:419.63491821px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         xml:space="preserve"
+         transform="matrix(0.96301767,-0.24416402,0.24056907,0.97740853,0,0)"><tspan
+           y="1908.856"
+           x="-2074.8831"
+           id="tspan3936"
+           sodipodi:role="line">Football</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3938"
+         y="1938.3301"
+         x="-641.3316"
+         style="font-size:436.84243774px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;font-family:FabfeltScript Bold;-inkscape-font-specification:FabfeltScript Bold"
+         xml:space="preserve"
+         transform="matrix(0.97392004,-0.22689151,0.22689151,0.97392004,0,0)"><tspan
+           y="1938.3301"
+           x="-641.3316"
+           id="tspan3940"
+           sodipodi:role="line">Club</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:346.54037476px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4cff1f;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Fonarto;-inkscape-font-specification:Fonarto"
+       x="-513.68994"
+       y="-3195.3989"
+       id="text4706"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcfontareolimegreen.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4708"
+         x="-513.68994"
+         y="-3195.3989">Frederick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:348.93664551px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4cff1f;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Fonarto;-inkscape-font-specification:Fonarto"
+       x="1071.5792"
+       y="-3186.8232"
+       id="text4710"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcfontareolimegreen.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4712"
+         x="1071.5792"
+         y="-3186.8232">Womens</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:513.87219238px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4cff1f;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Fonarto;-inkscape-font-specification:Fonarto"
+       x="-525.23975"
+       y="-2785.4155"
+       id="text4714"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcfontareolimegreen.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4716"
+         x="-525.23975"
+         y="-2785.4155">Rugby</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:585.18280029px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#4cff1f;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Fonarto;-inkscape-font-specification:Fonarto"
+       x="1076.558"
+       y="-2735.209"
+       id="text4718"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcfontareolimegreen.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4720"
+         x="1076.558"
+         y="-2735.209">Club</tspan></text>
+    <text
+       transform="scale(0.8561553,1.1680124)"
+       sodipodi:linespacing="125%"
+       id="text4920"
+       y="-490.91568"
+       x="-5444.186"
+       style="font-size:564.35290527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.15050697;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:2.15050697"
+         y="-490.91568"
+         x="-5444.186"
+         id="tspan4922"
+         sodipodi:role="line">Frederick</tspan></text>
+    <text
+       transform="scale(0.80801166,1.2376059)"
+       sodipodi:linespacing="125%"
+       id="text4924"
+       y="-423.62149"
+       x="-3870.8938"
+       style="font-size:613.8706665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:1.87464213;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:1.87464213"
+         y="-423.62149"
+         x="-3870.8938"
+         id="tspan4926"
+         sodipodi:role="line">Womens</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4928"
+       y="57.451534"
+       x="-4708.7886"
+       style="font-size:752.87591553px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.22593284;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:2.22593284"
+         y="57.451534"
+         x="-4708.7886"
+         id="tspan4930"
+         sodipodi:role="line">Rugby</tspan></text>
+    <text
+       transform="scale(1.1159362,0.89610857)"
+       sodipodi:linespacing="125%"
+       id="text4932"
+       y="623.45215"
+       x="-4301.5381"
+       style="font-size:447.84310913px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.06329894;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:2.06329894"
+         y="623.45215"
+         x="-4301.5381"
+         id="tspan4934"
+         sodipodi:role="line">Football</tspan></text>
+    <text
+       transform="scale(0.9287445,1.0767224)"
+       sodipodi:linespacing="125%"
+       id="text4936"
+       y="471.82593"
+       x="-3558.8125"
+       style="font-size:1102.13098145px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:1.71077108;stroke-opacity:1;font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:1.71077108"
+         y="471.82593"
+         x="-3558.8125"
+         id="tspan4938"
+         sodipodi:role="line">Club</tspan></text>
+    <text
+       transform="matrix(0.8561553,0,0,1.1680124,-5627.6822,443.91386)"
+       sodipodi:linespacing="125%"
+       id="text4940"
+       y="-2465.7021"
+       x="-2854.6067"
+       style="font-size:564.35290527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.15050697;stroke-opacity:1;filter:url(#filter5880);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.15050697;stroke-opacity:1"
+         y="-2465.7021"
+         x="-2854.6067"
+         id="tspan4942"
+         sodipodi:role="line">Frederick</tspan></text>
+    <text
+       transform="matrix(0.80801166,0,0,1.2376059,-5627.6822,443.91386)"
+       sodipodi:linespacing="125%"
+       id="text4944"
+       y="-2287.3611"
+       x="-1127.0201"
+       style="font-size:613.8706665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:1.87464213;stroke-opacity:1;filter:url(#filter5894);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:1.87464213;stroke-opacity:1"
+         y="-2287.3611"
+         x="-1127.0201"
+         id="tspan4946"
+         sodipodi:role="line">Womens</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4948"
+       y="-1833.8495"
+       x="-8047.7896"
+       style="font-size:752.87591553px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.22593284;stroke-opacity:1;filter:url(#filter5908);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.22593284;stroke-opacity:1"
+         y="-1833.8495"
+         x="-8047.7896"
+         id="tspan4950"
+         sodipodi:role="line">Rugby</tspan></text>
+    <text
+       transform="matrix(1.1159362,0,0,0.89610857,-5556.0832,415.27426)"
+       sodipodi:linespacing="125%"
+       id="text4952"
+       y="-1950.5386"
+       x="-2314.792"
+       style="font-size:447.84310913px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.06329894;stroke-opacity:1;filter:url(#filter5922);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.06329894;stroke-opacity:1"
+         y="-1950.5386"
+         x="-2314.792"
+         id="tspan4954"
+         sodipodi:role="line">Football</tspan></text>
+    <text
+       transform="matrix(0.9287445,0,0,1.0767224,-5627.6822,443.91386)"
+       sodipodi:linespacing="125%"
+       id="text4956"
+       y="-1670.3931"
+       x="-1171.6307"
+       style="font-size:1102.13098145px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:1.71077108;stroke-opacity:1;filter:url(#filter5936);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:1.71077108;stroke-opacity:1"
+         y="-1670.3931"
+         x="-1171.6307"
+         id="tspan4958"
+         sodipodi:role="line">Club</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:564.35290527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.15050697;stroke-opacity:1;filter:url(#filter5950);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-2854.6067"
+       y="-2465.7021"
+       id="text4960"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.8561553,0,0,1.1680124,-5627.6822,443.91386)"><tspan
+         sodipodi:role="line"
+         id="tspan4962"
+         x="-2854.6067"
+         y="-2465.7021"
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.15050697;stroke-opacity:1">Frederick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:613.8706665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:1.87464213;stroke-opacity:1;filter:url(#filter5964);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-1127.0201"
+       y="-2287.3611"
+       id="text4964"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.80801166,0,0,1.2376059,-5627.6822,443.91386)"><tspan
+         sodipodi:role="line"
+         id="tspan4966"
+         x="-1127.0201"
+         y="-2287.3611"
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:1.87464213;stroke-opacity:1">Womens</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:752.87591553px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.22593284;stroke-opacity:1;filter:url(#filter5978);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-8047.7896"
+       y="-1833.8495"
+       id="text4968"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4970"
+         x="-8047.7896"
+         y="-1833.8495"
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.22593284;stroke-opacity:1">Rugby</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:447.84310913px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.06329894;stroke-opacity:1;filter:url(#filter5992);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-2314.792"
+       y="-1950.5386"
+       id="text4972"
+       sodipodi:linespacing="125%"
+       transform="matrix(1.1159362,0,0,0.89610857,-5556.0832,415.27426)"><tspan
+         sodipodi:role="line"
+         id="tspan4974"
+         x="-2314.792"
+         y="-1950.5386"
+         style="fill:#ffffff;fill-opacity:1;stroke:#7d7d7d;stroke-width:2.06329894;stroke-opacity:1">Football</tspan></text>
+    <text
+       transform="matrix(0.8561553,0,0,1.1680124,-4668.2554,0)"
+       sodipodi:linespacing="125%"
+       id="text6064"
+       y="-2475.3884"
+       x="911.54059"
+       style="font-size:564.35290527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.15050697;stroke-opacity:1;filter:url(#filter6724);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:2.15050697"
+         y="-2475.3884"
+         x="911.54059"
+         id="tspan6066"
+         sodipodi:role="line">Frederick</tspan></text>
+    <text
+       transform="matrix(0.80801166,0,0,1.2376059,-4668.2554,0)"
+       sodipodi:linespacing="125%"
+       id="text6068"
+       y="-2296.5027"
+       x="2863.5249"
+       style="font-size:613.8706665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:1.87464213;stroke-opacity:1;filter:url(#filter6738);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:1.87464213"
+         y="-2296.5027"
+         x="2863.5249"
+         id="tspan6070"
+         sodipodi:role="line">Womens</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6072"
+       y="-2260.4373"
+       x="-3935.5552"
+       style="font-size:752.87591553px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.22593284;stroke-opacity:1;filter:url(#filter6752);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:2.22593284"
+         y="-2260.4373"
+         x="-3935.5552"
+         id="tspan6074"
+         sodipodi:role="line">Rugby</tspan></text>
+    <text
+       transform="matrix(1.1159362,0,0,0.89610857,-4668.2554,0)"
+       sodipodi:linespacing="125%"
+       id="text6076"
+       y="-1963.1639"
+       x="574.62671"
+       style="font-size:447.84310913px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.06329894;stroke-opacity:1;filter:url(#filter6766);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:2.06329894"
+         y="-1963.1639"
+         x="574.62671"
+         id="tspan6078"
+         sodipodi:role="line">Football</tspan></text>
+    <text
+       transform="matrix(0.9287445,0,0,1.0767224,-4668.2554,0)"
+       sodipodi:linespacing="125%"
+       id="text6080"
+       y="-1680.9006"
+       x="2300.1604"
+       style="font-size:1102.13098145px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:1.71077108;stroke-opacity:1;filter:url(#filter6780);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       xml:space="preserve"><tspan
+         style="stroke-width:1.71077108"
+         y="-1680.9006"
+         x="2300.1604"
+         id="tspan6082"
+         sodipodi:role="line">Club</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:564.35290527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.15050697;stroke-opacity:1;filter:url(#filter6794);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="911.54059"
+       y="-2475.3884"
+       id="text6084"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.8561553,0,0,1.1680124,-4668.2554,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6086"
+         x="911.54059"
+         y="-2475.3884"
+         style="stroke-width:2.15050697">Frederick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:613.8706665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:1.87464213;stroke-opacity:1;filter:url(#filter6808);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="2863.5249"
+       y="-2296.5027"
+       id="text6088"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.80801166,0,0,1.2376059,-4668.2554,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6090"
+         x="2863.5249"
+         y="-2296.5027"
+         style="stroke-width:1.87464213">Womens</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:752.87591553px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.22593284;stroke-opacity:1;filter:url(#filter6822);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="-3935.5552"
+       y="-2260.4373"
+       id="text6092"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6094"
+         x="-3935.5552"
+         y="-2260.4373"
+         style="stroke-width:2.22593284">Rugby</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:447.84310913px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:2.06329894;stroke-opacity:1;filter:url(#filter6836);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="574.62671"
+       y="-1963.1639"
+       id="text6096"
+       sodipodi:linespacing="125%"
+       transform="matrix(1.1159362,0,0,0.89610857,-4668.2554,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6098"
+         x="574.62671"
+         y="-1963.1639"
+         style="stroke-width:2.06329894">Football</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1102.13098145px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a9ff00;fill-opacity:1;stroke:#000000;stroke-width:1.71077108;stroke-opacity:1;filter:url(#filter6850);font-family:ENDLESS BUMMER;-inkscape-font-specification:ENDLESS BUMMER"
+       x="2300.1604"
+       y="-1680.9006"
+       id="text6100"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.9287445,0,0,1.0767224,-4668.2554,0)"><tspan
+         sodipodi:role="line"
+         id="tspan6102"
+         x="2300.1604"
+         y="-1680.9006"
+         style="stroke-width:1.71077108">Club</tspan></text>
+    <text
+       transform="scale(0.8561553,1.1680124)"
+       sodipodi:linespacing="125%"
+       id="text7824"
+       y="1807.2866"
+       x="-6186.0269"
+       style="font-size:564.35290527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.15050697;stroke-opacity:1;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.15050697;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+         y="1807.2866"
+         x="-6186.0269"
+         id="tspan7826"
+         sodipodi:role="line">Frederick</tspan></text>
+    <text
+       transform="scale(0.80801166,1.2376059)"
+       sodipodi:linespacing="125%"
+       id="text7828"
+       y="1745.3474"
+       x="-4656.9355"
+       style="font-size:613.8706665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.87464213;stroke-opacity:1;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:1.87464213;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+         y="1745.3474"
+         x="-4656.9355"
+         id="tspan7830"
+         sodipodi:role="line">Womens</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7832"
+       y="2741.7803"
+       x="-5343.9194"
+       style="font-size:752.87591553px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.22593284;stroke-opacity:1;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.22593284;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+         y="2741.7803"
+         x="-5343.9194"
+         id="tspan7834"
+         sodipodi:role="line">Rugby</tspan></text>
+    <text
+       transform="scale(1.1159362,0.89610857)"
+       sodipodi:linespacing="125%"
+       id="text7836"
+       y="3618.9919"
+       x="-4870.6841"
+       style="font-size:447.84310913px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.06329894;stroke-opacity:1;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.06329894;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+         y="3618.9919"
+         x="-4870.6841"
+         id="tspan7838"
+         sodipodi:role="line">Football</tspan></text>
+    <text
+       transform="scale(0.9287445,1.0767224)"
+       sodipodi:linespacing="125%"
+       id="text7840"
+       y="2964.8816"
+       x="-4242.6724"
+       style="font-size:1102.13098145px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.71077108;stroke-opacity:1;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:1.71077108;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+         y="2964.8816"
+         x="-4242.6724"
+         id="tspan7842"
+         sodipodi:role="line">Club</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:564.35290527px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.15050697;stroke-opacity:1;filter:url(#filter4907);font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       x="-7059.71"
+       y="-1642.6707"
+       id="text7844"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.8561553,0,0,1.1680124,-5284.0069,-2205.2495)"><tspan
+         sodipodi:role="line"
+         id="tspan7846"
+         x="-7059.71"
+         y="-1642.6707"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.15050697;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded">Frederick</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:613.8706665px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.87464213;stroke-opacity:1;filter:url(#filter4893);font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       x="-5717.0562"
+       y="-1539.8557"
+       id="text7848"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.80801166,0,0,1.2376059,-5284.0069,-2205.2495)"><tspan
+         sodipodi:role="line"
+         id="tspan7850"
+         x="-5717.0562"
+         y="-1539.8557"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:1.87464213;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded">Womens</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:752.87591553px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.22593284;stroke-opacity:1;filter:url(#filter4879);font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       x="-11303.548"
+       y="-3589.5796"
+       id="text7852"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan7854"
+         x="-11303.548"
+         y="-3589.5796"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.22593284;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded">Rugby</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:447.84310913px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.06329894;stroke-opacity:1;filter:url(#filter4865);font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       x="-5454.4907"
+       y="-1160.5078"
+       id="text7856"
+       sodipodi:linespacing="125%"
+       transform="matrix(1.1159362,0,0,0.89610857,-5284.0069,-2205.2495)"><tspan
+         sodipodi:role="line"
+         id="tspan7858"
+         x="-5454.4907"
+         y="-1160.5078"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.06329894;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded">Football</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1198.81262207px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.86084425;stroke-opacity:1;filter:url(#filter4851);font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded"
+       x="-4945.0342"
+       y="-858.19617"
+       id="text7860"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.9287445,0,0,1.0767224,-5284.0069,-2205.2495)"><tspan
+         sodipodi:role="line"
+         id="tspan7862"
+         x="-4945.0342"
+         y="-858.19617"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:1.86084425;font-family:Growl_rounded;-inkscape-font-specification:Growl_rounded">Club</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:359.89318848px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold"
+       x="-7241.4126"
+       y="-4247.8652"
+       id="text7864"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan7866"
+         x="-7241.4126"
+         y="-4247.8652">FREDERICK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:326.9413147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold"
+       x="-5362.3311"
+       y="-4266.415"
+       id="text7868"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan7870"
+         x="-5362.3311"
+         y="-4266.415">WOMENS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:542.00823975px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold"
+       x="-7259.2002"
+       y="-3753.6899"
+       id="text7872"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan7874"
+         x="-7259.2002"
+         y="-3753.6899">RUGBY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:364.75140381px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold"
+       x="-5602.1743"
+       y="-3894.1414"
+       id="text7876"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan7878"
+         x="-5602.1743"
+         y="-3894.1414">FOOTBALL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:411.89169312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold"
+       x="-5825.8232"
+       y="-3477.2395"
+       id="text7880"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan7882"
+         x="-5825.8232"
+         y="-3477.2395">CLUB</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3365"
+       y="-4515.6938"
+       x="-3046.3943"
+       style="font-size:359.89318847999999000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold;filter:url(#filter4153)"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorwhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-4515.6938"
+         x="-3046.3943"
+         id="tspan3367"
+         sodipodi:role="line">FREDERICK</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3369"
+       y="-4534.2437"
+       x="-1167.3127"
+       style="font-size:326.94131470000002000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold;filter:url(#filter4165)"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorwhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-4534.2437"
+         x="-1167.3127"
+         id="tspan3371"
+         sodipodi:role="line">WOMENS</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3373"
+       y="-4021.5188"
+       x="-3064.1819"
+       style="font-size:542.00823975000003000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold;filter:url(#filter4177)"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorwhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-4021.5188"
+         x="-3064.1819"
+         id="tspan3375"
+         sodipodi:role="line">RUGBY</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3377"
+       y="-4161.9702"
+       x="-1407.156"
+       style="font-size:364.75140381000000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold;filter:url(#filter4189)"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorwhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-4161.9702"
+         x="-1407.156"
+         id="tspan3379"
+         sodipodi:role="line">FOOTBALL</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3381"
+       y="-3788.0278"
+       x="-1645.1248"
+       style="font-size:411.89169312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter4201);font-family:XPLOR Bold;-inkscape-font-specification:XPLOR Bold"
+       xml:space="preserve"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorwhite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="-3788.0278"
+         x="-1645.1248"
+         id="tspan3383"
+         sodipodi:role="line">CLUB</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4843"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Segoe UI;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Segoe UI;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion4845"><rect
+           id="rect4847"
+           width="3042.6008"
+           height="1639.9583"
+           x="-6145.416"
+           y="-2588.8411" /></flowRegion><flowPara
+         id="flowPara4849" /></flowRoot>    <text
+       transform="matrix(0.8561553,0,0,1.1680124,-4224.3415,1976.1327)"
+       sodipodi:linespacing="125%"
+       id="text3486"
+       y="-1642.6707"
+       x="-7059.71"
+       style="font-size:564.35290527000006000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.15050696999999990;stroke-opacity:1;filter:url(#filter4907);font-family:Raleway;-inkscape-font-specification:Raleway"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.15050696999999990;font-family:Raleway;-inkscape-font-specification:Raleway"
+         y="-1642.6707"
+         x="-7059.71"
+         id="tspan3488"
+         sodipodi:role="line">Frederick</tspan></text>
+    <text
+       transform="matrix(0.80801166,0,0,1.2376059,-3250.595,1990.4525)"
+       sodipodi:linespacing="125%"
+       id="text3490"
+       y="-1539.8557"
+       x="-5717.0562"
+       style="font-size:613.87066649999997000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.87464213000000000;stroke-opacity:1;filter:url(#filter4893);font-family:Raleway;-inkscape-font-specification:Raleway"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:1.87464213000000000;font-family:Raleway;-inkscape-font-specification:Raleway"
+         y="-1539.8557"
+         x="-5717.0562"
+         id="tspan3492"
+         sodipodi:role="line">Womens</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3494"
+       y="792.27985"
+       x="-10301.161"
+       style="font-size:752.87591552999982000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.22593284000000000;stroke-opacity:1;filter:url(#filter4879);font-family:Raleway;-inkscape-font-specification:Raleway"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.22593284000000000;font-family:Raleway;-inkscape-font-specification:Raleway"
+         y="792.27985"
+         x="-10301.161"
+         id="tspan3496"
+         sodipodi:role="line">Rugby</tspan></text>
+    <text
+       transform="matrix(1.1159362,0,0,0.89610857,-4081.1435,2405.7267)"
+       sodipodi:linespacing="125%"
+       id="text3498"
+       y="-1160.5078"
+       x="-5454.4907"
+       style="font-size:447.84310912999996000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.06329894000000010;stroke-opacity:1;filter:url(#filter4865);font-family:Raleway;-inkscape-font-specification:Raleway"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:2.06329894000000010;font-family:Raleway;-inkscape-font-specification:Raleway"
+         y="-1160.5078"
+         x="-5454.4907"
+         id="tspan3500"
+         sodipodi:role="line">Football</tspan></text>
+    <text
+       transform="matrix(0.9287445,0,0,1.0767224,-3193.3158,2033.4119)"
+       sodipodi:linespacing="125%"
+       id="text3502"
+       y="-858.19617"
+       x="-4945.0342"
+       style="font-size:1198.81262207000010000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.86084425000000000;stroke-opacity:1;filter:url(#filter4851);font-family:Raleway;-inkscape-font-specification:Raleway"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke-width:1.86084425000000000;font-family:Raleway;-inkscape-font-specification:Raleway"
+         y="-858.19617"
+         x="-4945.0342"
+         id="tspan3504"
+         sodipodi:role="line">Club</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       sodipodi:linespacing="125%"
+       id="text3495"
+       y="-6332.6411"
+       x="-7955.687"
+       style="font-size:537.77154541px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Canter Bold Strips;-inkscape-font-specification:Canter Bold Strips Bold"
+       xml:space="preserve"><tspan
+         y="-6332.6411"
+         x="-7955.687"
+         id="tspan3497"
+         sodipodi:role="line">FREDERICK</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       sodipodi:linespacing="125%"
+       id="text3499"
+       y="-6348.1143"
+       x="-6283.939"
+       style="font-size:507.14987183px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Canter Bold Strips;-inkscape-font-specification:Canter Bold Strips Bold"
+       xml:space="preserve"><tspan
+         y="-6348.1143"
+         x="-6283.939"
+         id="tspan3501"
+         sodipodi:role="line">WOMENS</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       sodipodi:linespacing="125%"
+       id="text3503"
+       y="-5617.4282"
+       x="-7999.3569"
+       style="font-size:1001.22149658px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Canter Bold Strips;-inkscape-font-specification:Canter Bold Strips Bold"
+       xml:space="preserve"><tspan
+         y="-5617.4282"
+         x="-7999.3569"
+         id="tspan3505"
+         sodipodi:role="line">RUGBY</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       sodipodi:linespacing="125%"
+       id="text3507"
+       y="-6078.5044"
+       x="-6019.9761"
+       style="font-size:354.16333008px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Canter Bold Strips;-inkscape-font-specification:Canter Bold Strips Bold"
+       xml:space="preserve"><tspan
+         y="-6078.5044"
+         x="-6019.9761"
+         id="tspan3509"
+         sodipodi:role="line">FOOTBALL</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\xampp\htdocs\fwrfc\img\titleBanners\fwrfcxplorblack.png"
+       sodipodi:linespacing="125%"
+       id="text3511"
+       y="-6100.1187"
+       x="-5604.7036"
+       style="font-size:672.88970947px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Canter Bold Strips;-inkscape-font-specification:Canter Bold Strips Bold"
+       xml:space="preserve"
+       transform="scale(1.088165,0.91897828)"><tspan
+         y="-6100.1187"
+         x="-5604.7036"
+         id="tspan3513"
+         sodipodi:role="line">CLUB</tspan></text>
+  </g>
+</svg>

@@ -5,7 +5,7 @@
     <!--  Banner  -->
     <div class="row banner">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="img/titleBanners/FWRFCTitle_12.png" alt="Frederick Women's Rugby Football Club">
+            <img src="img/titleBanners/fwrfccanterwhite.png" alt="Frederick Women's Rugby Football Club">
         </div>
     </div>
     <div class="container-fluid">
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="dues">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="dues">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="GMZJDL959EHKE">
@@ -201,6 +201,8 @@
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="banquets">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -217,9 +219,8 @@
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="donate">
+               
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="donate">
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="U3Y58RHZ6K2B2">

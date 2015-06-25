@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5 {
 
 .banner {
   margin-right: 0px;
-  background-image: url(../img/grassTex/wet_grass_black.png);
+  background-image: url("../img/grassTex/wet_grass_black_Gauss.png");
   text-align: center; }
   .banner img {
     margin-top: 90px;
@@ -275,16 +275,20 @@ h1, h2, h3, h4, h5 {
     padding-right: 40px; }
   #contactandpay #pay {
     text-align: justify;
-    padding-left: 20px;
     padding-right: 20px;
     min-height: 398px;
     background-color: rgba(76, 128, 20, 0.5);
     border-left: 5px solid #5d5d5d; }
+    #contactandpay #pay h2 {
+      padding-left: 20px; }
     #contactandpay #pay form {
-      padding-left: 50px; }
+      text-align: center; }
+    #contactandpay #pay select {
+      padding-right: 10px; }
     #contactandpay #pay #dues .button {
       padding-top: 10px;
-      margin-left: 25%;
+      margin-left: 10px;
+      margin-right: 5px;
       width: 130px; }
     #contactandpay #pay #banquets .button {
       padding: 10px;
