@@ -153,20 +153,24 @@ h1, h2, h3, h4, h5 {
   font-family: "sofia"; }
 
 .banner {
+  position: fixed;
+  z-index: 1;
+  width: 105%;
   margin-right: 0px;
   background-image: url("../img/grassTex/wet_grass_black_Gauss.png");
-  text-align: center; }
+  text-align: center;
+  box-shadow: 0px 10px 30px 0px #5d5d5d; }
   .banner img {
-    margin-top: 90px;
-    margin-bottom: 12.5%;
-    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 0px;
     width: 1000px; }
 
 #history {
+  margin-top: 400px;
   border-bottom: 3px solid #5d5d5d;
   background-color: #cccccf;
-  background-image: url("../img/silver_scales/silver_scales.png");
-  box-shadow: 0px 10px 30px 0px #5d5d5d inset; }
+  background-image: url("../img/silver_scales/silver_scales.png"); }
   #history img#logo {
     margin-left: 44.5%;
     padding-top: 30px; }
@@ -178,6 +182,8 @@ h1, h2, h3, h4, h5 {
     margin: 10px 200px 30px 200px; }
 
 #sponser {
+  position: relative;
+  z-index: 2;
   background-color: #4c8014;
   background-image: url("../img/tree_bark/tree_bark.png");
   background-position: center;
@@ -188,10 +194,15 @@ h1, h2, h3, h4, h5 {
   #sponser .sponsers {
     margin-bottom: 50px; }
     #sponser .sponsers img {
+      height: 150px;
+      border: 10px solid #5d5d5d;
+      padding: 5px;
       margin-top: 50px;
       margin-left: 20px; }
 
 #pe {
+  position: relative;
+  z-index: 2;
   border-left: 3px solid #5d5d5d;
   border-bottom: 3px solid #5d5d5d;
   background-color: #5d5d5d; }
@@ -215,6 +226,8 @@ h1, h2, h3, h4, h5 {
         font-size: 20px; }
 
 #games {
+  position: relative;
+  z-index: 2;
   text-align: center;
   border-bottom: 5px solid #5d5d5d;
   background-image: url("../img/fabric_plaid/fabric_plaid_@2X.png");
@@ -243,6 +256,8 @@ h1, h2, h3, h4, h5 {
       border-bottom: 2px solid #5d5d5d; }
 
 #mr {
+  position: relative;
+  z-index: 2;
   height: 400px;
   background-image: url("../img/swirl/swirl.png");
   background-size: contain;
@@ -266,6 +281,8 @@ h1, h2, h3, h4, h5 {
       text-decoration: none; }
 
 #contactandpay {
+  position: relative;
+  z-index: 2;
   height: 405px;
   background-color: #cccccf;
   border: 5px solid rgba(5, 3, 6, 0.5); }
@@ -284,14 +301,14 @@ h1, h2, h3, h4, h5 {
     #contactandpay #pay form {
       text-align: center; }
     #contactandpay #pay select {
-      padding-right: 10px; }
+      padding-left: 10px; }
     #contactandpay #pay #dues .button {
-      padding-top: 10px;
+      padding-top: 5px;
       margin-left: 10px;
       margin-right: 5px;
       width: 130px; }
     #contactandpay #pay #banquets .button {
-      padding: 10px;
+      padding: 5px;
       margin-top: 5px;
       margin-left: 40px;
       width: 130px;
@@ -311,6 +328,8 @@ h1, h2, h3, h4, h5 {
   margin: 0px; }
 
 #important {
+  position: relative;
+  z-index: 2;
   background-image: url("../img/swirl_pattern.png"); }
   #important #cipp {
     color: #eeeff1;
@@ -329,6 +348,8 @@ h1, h2, h3, h4, h5 {
     min-height: 419px; }
 
 #feeds {
+  position: relative;
+  z-index: 2;
   background-color: #cccccf; }
   #feeds #fb {
     color: #eeeff1;

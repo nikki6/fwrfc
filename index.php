@@ -5,7 +5,7 @@
     <!--  Banner  -->
     <div class="row banner">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <img src="img/titleBanners/fwrfccanterwhite.png" alt="Frederick Women's Rugby Football Club">
+            <img src="img/titleBanners/FWRFCTitle_3.png" alt="Frederick Women's Rugby Football Club">
         </div>
     </div>
     <div class="container-fluid">
@@ -32,7 +32,7 @@
          <div class="row second" id="sponser">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sponsers">
                 <h1>Our Sponsers</h1>
-                <img src="img/rect.png"><img src="img/rect.png"><img src="img/rect.png"><img src="img/rect.png"><img src="img/rect.png"><img src="img/rect.png">
+                <img src="img/sponsers/bushwallers_logo.jpg"><img src="img/sponsers/ilfornologocontent.gif">
              </div>
         </div>
         <div class="row second" id="pe">
@@ -90,35 +90,125 @@
                     <thead>
                         <tr>
                             <th>Date</th>
-                            <th>Event</th>
+                            <th>Opponent</th>
                             <th>Location</th>
                             <th>Score</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
+                            <td>June 27</td>
+                            <td>Harrisburg 7s</td>
+                            <td>Harrisburg, PA</td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
+                            <td>July 13</td>
+                            <td>Steel City 7s</td>
+                            <td>Pittsburg, PA</td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
+                            <td>September 12</td>
+                            <td>NOVA</td>
+                            <td>Walnut Ridge</td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
-                            <td>Event</td>
+                            <td>September 19</td>
+                            <td>Chesapeake</td>
+                            <td>Away - Chesapeake</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>September 26</td>
+                            <td>BYE</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>October 3</td>
+                            <td>Harrisburg</td>
+                            <td>Walnut Ridge</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>October 10</td>
+                            <td>Furies</td>
+                            <td>Walnut Ridge</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>October 17</td>
+                            <td>BYE</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>October 24</td>
+                            <td>Doylestown</td>
+                            <td>Walnut Ridge</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>October 31</td>
+                            <td>Brandywine</td>
+                            <td>Brandywine, PA</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>November 7</td>
+                            <td>Lancaster</td>
+                            <td>Lancaster, PA</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>November 14</td>
+                            <td>Makeup Weekend</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>March 12</td>
+                            <td>Free Weekend</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                         <tr>
+                            <td>March 19</td>
+                            <td>Free Weekend</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                         <tr>
+                            <td>March 26</td>
+                            <td>Free Weekend</td>
+                            <td>Easter</td>
+                            <td></td>
+                        </tr>
+                         <tr>
+                            <td>April 2</td>
+                            <td>BYE</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                         <tr>
+                            <td>April 9</td>
+                            <td>Stingers</td>
+                            <td>Baltimore, MD</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>April 16</td>
+                            <td>Makeup Weekend</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>May 14</td>
+                            <td>MAC</td>
+                            <td>Championships</td>
+                            <td></td>
                         </tr>
                     </tbody>
                 </table>
@@ -188,7 +278,7 @@
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="GMZJDL959EHKE">
                             <input type="hidden" name="on0" value="Winter Banquet, Calendars & Spring Player Dues">
-                                <h3>Player Dues</h3>
+                                <h2>Player Dues</h2>
                             <select name="os0">
                                 <option value="Returning/Non-Student">Returning/Non-Student $76.99 USD</option>
                                 <option value="Rookie/Returning Students">Rookie/Returning Students $56.54 USD</option>
@@ -209,7 +299,7 @@
                             <input type="hidden" name="hosted_button_id" value="58YB24KP9DBWQ">
 
                             <input type="hidden" name="on0" value="Pig Roast RSVP">
-                                <h3>Pig Roast RSVP</h3>
+                                <h2>Pig Roast RSVP</h2>
                             <select name="os0">
                                 <option value="Pig Roast RSVP">Pig Roast RSVP $31.06 USD</option>
                             </select>
@@ -224,7 +314,7 @@
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="U3Y58RHZ6K2B2">
-                            <h3>Support Us!</h3>
+                            <h2>Support Us!</h2>
                             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
