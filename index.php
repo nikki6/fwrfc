@@ -12,7 +12,7 @@
         <div class="row first">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about" id="history">
 <!--                <img src="img/leftsideoflogo.png" alt="-----">-->
-                <img src="img/FWRFC_Logo_Art.png" alt="FWRFC" id="logo">
+                <img src="img/FWRFC_Logo_Art.png" alt="FWRFC" id="logo" class="img-responsive">
 <!--                <img src="img/leftsideoflogo.png" alt="-----">-->
                 <h1>About The Team</h1>
                 <p>
@@ -32,7 +32,7 @@
          <div class="row second" id="sponser">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sponsers">
                 <h1>Our Sponsers</h1>
-                <img src="img/sponsers/bushwallers_logo.jpg"><img src="img/sponsers/ilfornologocontent.gif">
+                <img src="img/sponsers/bushwallers_logo.jpg" ><img src="img/sponsers/ilfornologocontent.gif">
              </div>
         </div>
         <div class="row second" id="pe">
@@ -50,7 +50,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 events">
                 <h1>Upcoming Events</h1>
-                <table class="table table-striped table-bordered">
+                <table class="table table-striped table-bordered table-responsive">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -86,7 +86,7 @@
         <div class="row third" id="games">
             <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 schedule">
                 <h1>Our Schedule</h1>
-                <table class="table table-striped table-bordered">
+                <table class="table table-striped table-bordered table-responsive">
                     <thead>
                         <tr>
                             <th>Date</th>
@@ -223,7 +223,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 roster">                
 <!--                <div class = "shape"></div>-->
-                <a href="roster.php"><img src="img/ourRosterWhite.png" alt="Our Roster">  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+                <a href="roster.php"><img  src="img/ourRosterWhite.png" alt="Our Roster">  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
             </div>
         </div>
         <div class="row" id="contactandpay">
@@ -372,7 +372,7 @@
         <div class="end">
             <div class="row" id="footer">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social">
-                    <a href="http://www.facebook.com"><img src="img/social_media/Facebook-icon.png" alt="Facebook"></a>
+                    <a href="http://www.facebook.com"><img src="img/social_media/Facebook-icon.png" alt="Facebook" ></a>
                     <a href="http://www.twitter.com"><img src="img/social_media/Twitter-icon.png" alt="Twitter"></a>
                 </div>
             </div>

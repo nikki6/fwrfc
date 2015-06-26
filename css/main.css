@@ -362,12 +362,16 @@ h1, h2, h3, h4, h5 {
       text-align: left; }
 
 #footer {
+  position: relative;
+  z-index: 2;
   background-color: #050306;
   text-align: center; }
   #footer img {
     margin-top: 20px; }
 
 #footer2 {
+  position: relative;
+  z-index: 2;
   background-color: #050306;
   text-align: center; }
   #footer2 h2 {
