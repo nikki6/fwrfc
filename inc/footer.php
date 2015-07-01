@@ -1,35 +1,20 @@
-<!--<div class="wrapper-for-content-outside-of-footer">
-   Uncomment this whole section for a sticky footer. The content of the page should be inside of this .wrapper-for-content-outside-of-footer
-</div>-->
-
-<footer class="footer-2" role="contentinfo">
-  <div class="footer-logo">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
-  </div>
-    <ul>
-      <li><a href="javascript:void(0)">About</a></li>
-      <li><a href="javascript:void(0)">Contact</a></li>
-      <li><a href="javascript:void(0)">Products</a></li>
-    </ul>
-
-    <div class="footer-secondary-links">
-      <ul>
-        <li><a href="javascript:void(0)">Terms and Conditions</a></li>
-        <li><a href="javascript:void(0)">Privacy Policy</a></li>
-      </ul>
-
-      <ul class="footer-social">
-        <li><a href="javascript:void(0)">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
-          </a></li>
-        <li><a href="javascript:void(0)">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
-        </a></li>
-        <li><a href="javascript:void(0)">
-          <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
-        </a></li>
-      </ul>
+<div class="end">
+            <div class="row" id="footer">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social">
+                    <a href="http://www.facebook.com"><img src="img/social_media/Facebook-icon.png" alt="Facebook"></a>
+                    <a href="http://www.twitter.com"><img src="img/social_media/Twitter-icon.png" alt="Twitter"></a>
+                </div>
+            </div>
+            <div class="row" id="footer2">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 important">
+                    <h2>Frederick Women's Rugby Football Club <small>est. 2004</small></h2>
+                </div>  
+            </div>
+        </div>
     </div>
-</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
