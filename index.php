@@ -277,17 +277,16 @@
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="GMZJDL959EHKE">
-                            <input type="hidden" name="on0" value="Winter Banquet, Calendars & Spring Player Dues">
-                                <h2>Player Dues</h2>
+                            <input type="hidden" name="on0" value="Dues and Fees">Dues and Fees
                             <select name="os0">
-                                <option value="Returning/Non-Student">Returning/Non-Student $76.99 USD</option>
-                                <option value="Rookie/Returning Students">Rookie/Returning Students $56.54 USD</option>
-                                <option value="Social Dues/ Monthly Pay">Social Dues/ Monthly Pay $25.87 USD</option>
-                                <option value="Sevens Tournament Dues">7s Tournament Dues $20.76 USD</option>
+                                 <option value="Returning/Non-Student">Returning/Non-Student $76.99 USD</option>
+                                 <option value="Rookie/Returning Students">Rookie/Returning Students $56.54 USD</option>
+                                 <option value="Social Dues/ Monthly Pay">Social Dues/ Monthly Pay $25.87 USD</option>
+                                 <option value="Tournament Fee">Tournament Fee $20.76 USD</option>
                             </select>
-                            <br>
                             <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="img/buttons/add_Normal.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class = "button">
+                            <br>
+                            <input type="image" src="img/buttons/add_Normal.png" border="0" name="submit" class = "button" alt="PayPal - The safer, easier way to pay online!">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
                     </div>
