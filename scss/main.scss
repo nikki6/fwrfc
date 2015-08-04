@@ -295,6 +295,11 @@ h1, h2, h3, h4, h5{
     }
 }
 
+.not-active{
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
 #feeds{
     position: relative;
     z-index: 2;
