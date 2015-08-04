@@ -219,6 +219,7 @@
         </div>
         <div class="row fourth" id="mr">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 media">
+                <img class = "comingsoon" id="mediaCS" src="img/comingSoon/comingsoonoverlay.png" alt="Coming Soon">
                 <a href="media.php" id="media-link"><img src="img/media2.png" alt="Media"></a>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 roster">                

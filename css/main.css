@@ -267,6 +267,10 @@ h1, h2, h3, h4, h5 {
     min-height: 400px;
     padding-top: 150px;
     text-align: center; }
+    #mr .media #mediaCS {
+      position: absolute;
+      left: -50px;
+      top: -50px; }
   #mr .roster {
     background-color: #5d5d5d;
     min-height: 400px;

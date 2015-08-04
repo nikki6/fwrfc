@@ -163,6 +163,11 @@ h1, h2, h3, h4, h5{
     background-repeat: repeat;
     font-size: 32px;
     .media{
+        #mediaCS{
+            position: absolute;
+            left: -50px;
+            top: -50px;
+        }
         min-height: 400px;
         padding-top: 150px;
         text-align: center;
