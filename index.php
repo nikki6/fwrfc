@@ -44,7 +44,6 @@
                     <strong>Walnut Ridge</strong><br>
                     1166 Rocky Springs Rd<br> 
                     Frederick, MD 21702<br>
-                    
                 </address>
                 
             </div>
@@ -60,25 +59,11 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>June 20</td>
-                            <td>Keys Game</td>
+                            <td>August 25</td>
+                            <td>Start of the Fall Practices</td>
                             <td>Enter Address Here</td>
                         </tr>
-                        <tr>
-                            <td>July 25</td>
-                            <td>Pig Roast</td>
-                            <td>The Farm</td>
-                        </tr>
-                        <tr>
-                            <td>June 27</td>
-                            <td>Harrisburg 7s</td>
-                            <td>Harrisburg, PA</td>
-                        </tr>
-                        <tr>
-                            <td>July 13</td>
-                            <td>Steel City 7s</td>
-                            <td>Pittsburg, PA</td>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>
@@ -218,10 +203,10 @@
             </div>
         </div>
         <div class="row fourth" id="mr">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 media">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 media not-active">
                 <a href="media.php" id="media-link"><img src="img/media2.png" alt="Media"></a>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 roster">                
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 roster not-active">                
 <!--                <div class = "shape"></div>-->
                 <a href="roster.php"><img  src="img/ourRosterWhite.png" alt="Our Roster">  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
             </div>
