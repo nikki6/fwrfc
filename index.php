@@ -29,23 +29,32 @@
                 </p>
             </div>
         </div>
+<!--
          <div class="row second" id="sponser">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sponsers">
                 <h1>Our Sponsers</h1>
                 <img src="img/sponsers/bushwallers_logo.jpg" ><img src="img/sponsers/ilfornologocontent.gif">
              </div>
         </div>
+-->
         <div class="row second" id="pe">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 practice">
                 <div class = "shape"></div>
                 <h1>Practices</h1>
+<!--
                 <p>The Summer 7s Season has started up again! Practices are Tuesdays and Thursdays at 7:00 to 8:30 at Walnut Ridge.</p>
                 <address>
                     <strong>Walnut Ridge</strong><br>
                     1166 Rocky Springs Rd<br> 
                     Frederick, MD 21702<br>
                 </address>
-                
+-->
+                <p>It's the Fall 15s Season again! Practices are Tuesdays and Thursdays at 7:30 to 9:30 at Hill Street Skate Park.</p>
+                 <address>
+                    <strong>Hill Street Skate Park</strong><br>
+                    100 Hill St<br>
+                    Frederick, MD 21703<br>
+                </address>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 events">
                 <h1>Upcoming Events</h1>
@@ -59,9 +68,14 @@
                     </thead>
                     <tbody>
                         <tr>
+                            <td>August 11</td>
+                            <td>Pre-Season Meeting</td>
+                            <td>Blueside Tavern on Bentz Street</td>
+                        </tr>
+                        <tr>
                             <td>August 25</td>
                             <td>Start of the Fall Practices</td>
-                            <td>Enter Address Here</td>
+                            <td>Hill Street Skate Park</td>
                         </tr>
                         
                     </tbody>
@@ -203,12 +217,14 @@
             </div>
         </div>
         <div class="row fourth" id="mr">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 media not-active">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 media not-active">
                 <a href="media.php" id="media-link"><img src="img/media2.png" alt="Media"></a>
+            <p>Coming Soon!!!</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 roster not-active">                
 <!--                <div class = "shape"></div>-->
                 <a href="roster.php"><img  src="img/ourRosterWhite.png" alt="Our Roster">  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+                <p>Coming Soon!!!</p>
             </div>
         </div>
         <div class="row" id="contactandpay">
@@ -261,13 +277,12 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="dues">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="GMZJDL959EHKE">
-                            <input type="hidden" name="on0" value="Dues and Fees">Dues and Fees
-                            <select name="os0">
-                                 <option value="Returning/Non-Student">Returning/Non-Student $76.99 USD</option>
-                                 <option value="Rookie/Returning Students">Rookie/Returning Students $56.54 USD</option>
-                                 <option value="Social Dues/ Monthly Pay">Social Dues/ Monthly Pay $25.87 USD</option>
-                                 <option value="Tournament Fee">Tournament Fee $20.76 USD</option>
+                            <input type="hidden" name="hosted_button_id" value="AHXNUDRRVGGHS">
+                            <input type="hidden" name="on0" value="Dues Options">Dues Options:  <select name="os0">
+                             <option value="Veteran Dues">Veteran Dues $92.33 USD</option>
+                             <option value="Student/Rookie">Student/Rookie $71.88 USD</option>
+                             <option value="Social Dues">Social Dues $25.87 USD</option>
+                             <option value="Installment Payment">Installment Payment $10.53 USD</option>
                             </select>
                             <input type="hidden" name="currency_code" value="USD">
                             <br>
@@ -277,6 +292,7 @@
                     </div>
                 </div>
                 <div class="row">
+<!--
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="banquets">
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
@@ -292,6 +308,10 @@
                             <input type="image" src="img/buttons/add_Normal.png" border="0" name="submit" alt="Add to Cart" class = "button">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
+                    </div>
+-->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <h2>Swagg Coming Soon!</h2>
                     </div>
                
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="donate">
@@ -318,8 +338,7 @@
                 </ol>
                 <p>The cost to be registered is: &#36;60.00. This will give you a secondary insurance and will get you registered as a USA rugby player.</p>
                 <p class = "important">&#42;You must have this to play.&#42;</p>
-                <p>Forward information to the <a href="mailto:fwrfc.execsec@yahoo.com">Executive Secretary</a> after you have registered. Also if 
-                    you need help you can contact the Executive Secretary and she will walk you through it.</p>
+                <p>Forward information to the <a href="mailto:fwrfc.execsec@yahoo.com">Executive Secretary</a> after you have registered. Also if you need help you can contact the Executive Secretary and she will walk you through it.</p>
                 </div>
             </div>
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="docs">
@@ -348,16 +367,17 @@
             </div>
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="tw">
                 <h1>Twitter Feed</h1>
-                    <a class="twitter-timeline" data-widget-id="600720083413962752" href="https://twitter.com/TwitterDev" data-tweet-limit="3">
+                    <a class="twitter-timeline" data-widget-id="600720083413962752" href="https://twitter.com/FrederickWRFC" data-tweet-limit="3">
                         Tweets by @FWRFC
                     </a>
+                    <p>Actual Feed is Coming Soon.</p>
             </div>
         </div>
         <div class="end">
             <div class="row" id="footer">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social">
-                    <a href="http://www.facebook.com"><img src="img/social_media/Facebook-icon.png" alt="Facebook" ></a>
-                    <a href="http://www.twitter.com"><img src="img/social_media/Twitter-icon.png" alt="Twitter"></a>
+                    <a href="https://www.facebook.com/FWRFC"><img src="img/social_media/Facebook-icon.png" alt="Facebook" ></a>
+                    <a href="https://twitter.com/FrederickWRFC"><img src="img/social_media/Twitter-icon.png" alt="Twitter"></a>
                 </div>
             </div>
             <div class="row" id="footer2">

@@ -28,7 +28,8 @@ h1, h2, h3, h4, h5{
     z-index: 1;
     width:105%;
     margin-right:0px;
-    background-image: url("../img/grassTex/wet_grass_black_Gauss.png");
+   background-image: url("../img/grassTex/wet_grass_black_Gauss.png");
+  //  background-image: url("../img/theFarm.JPG");
     text-align: center;
         box-shadow: 0px 10px 30px 0px $dgrey;
     img{
@@ -42,6 +43,7 @@ h1, h2, h3, h4, h5{
 
 #history{
     margin-top: 400px;
+    z-index: 2;
     border-bottom: 3px solid $dgrey;
     background-color: $grey;
     background-image: url("../img/silver_scales/silver_scales.png");
@@ -163,6 +165,11 @@ h1, h2, h3, h4, h5{
     background-repeat: repeat;
     font-size: 32px;
     .media{
+        #mediaCS{
+            position: absolute;
+            left: -50px;
+            top: -50px;
+        }
         min-height: 400px;
         padding-top: 150px;
         text-align: center;
