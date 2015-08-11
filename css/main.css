@@ -222,7 +222,12 @@ h1, h2, h3, h4, h5 {
       color: #eeeff1; }
     #pe .events table {
       border: 2px solid #5d5d5d;
-      background-color: #cccccf; }
+      background-color: #cccccf;
+      height: 225px;
+      overflow-y: scroll;
+      display: block; }
+      #pe .events table thead {
+        border-bottom: 3px solid #050306; }
       #pe .events table th {
         font-size: 20px; }
 

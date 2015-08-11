@@ -68,11 +68,13 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Our Teams <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="www.frederickrugby.org">FRFC</a>
+                            <li><a href="http://www.frederickrugby.org">FRFC</a>
                             </li>
-                            <li><a href="#">Youth</a>
+                            <li><a href="http://www.frederickyouthrugby.org/">Youth</a>
                             </li>
-                            <li><a href="#">Old Boys</a>
+                            <li><a href="http://www.wildgeeserugby.com/">Old Boys</a>
+                            </li>
+                            <li><a href="http://frederickrugby.org/">The Foundation</a>
                             </li>
                         </ul>
                     </li>

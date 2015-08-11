@@ -73,11 +73,50 @@
                             <td>Blueside Tavern on Bentz Street</td>
                         </tr>
                         <tr>
+                            <td>August 20</td>
+                            <td>Shauna's Birthday</td>
+                            <td>Blueside Tavern from 8pm till Close</td>
+                        </tr>
+                        <tr>
+                            <td>August 22</td>
+                            <td>House Crawl</td>
+                            <td>Tenative and still to be determined</td>
+                        </tr>
+                        <tr>
                             <td>August 25</td>
                             <td>Start of the Fall Practices</td>
                             <td>Hill Street Skate Park</td>
                         </tr>
-                        
+                        <tr>
+                            <td>September 11</td>
+                            <td>Field Lining and Pasta Party</td>
+                            <td>Walnut Ridge</td>
+                        </tr>
+                        <tr>
+                            <td>September 26</td>
+                            <td>Informational Booth</td>
+                            <td>The Frederick County Fair</td>
+                        </tr>
+                        <tr>
+                            <td>October 31</td>
+                            <td>Halloween Crawl</td>
+                            <td>Downtown Frederick</td>
+                        </tr>
+                        <tr>
+                            <td>November 14-15</td>
+                            <td>Fall Retreat</td>
+                            <td>Deep Creek Lake</td>
+                        </tr>
+                        <tr>
+                            <td>November 26</td>
+                            <td>Turkey Trot</td>
+                            <td>Downtown Frederick</td>
+                        </tr>
+                        <tr>
+                            <td>December 12</td>
+                            <td>Santa Run and Bar Crawl</td>
+                            <td>Downtown Frederick</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -229,7 +268,7 @@
         </div>
         <div class="row" id="contactandpay">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact">
-                <h1>Contact Us <small>The Vice President</small></h1>
+                <h1>Interested in Joining? <small>Contact Us!</small></h1>
                 <form class="form-horizontal" role="form" method="post" action="index.php">
                     <div class="form-group">
                         <label for="name" class="col-sm-2 control-label">Name</label>

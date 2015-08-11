@@ -110,6 +110,18 @@ h1, h2, h3, h4, h5{
         table{
             border: 2px solid $dgrey;
             background-color: $grey;
+            height: 225px;
+            overflow-y: scroll;
+            display: block;
+            thead{
+                border-bottom: 3px solid $black
+            }
+//            tbody{
+////                height: 175px;
+////                overflow-y: scroll;
+////                display: block;
+//            }
+            
             th{
                 font-size: 20px;
             }
