@@ -383,7 +383,7 @@
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="docs">
                 <h1>Google Docs and Things Like That</h1>
                 <div class="media">
-                  <a class="pull-left" href="https://docs.google.com/forms/d/1Svje9yPiRF-ibUm5YkZvIoU_JOBlHKs6799oA1Iwlro/viewform?usp=send_form">
+                  <a class="" href="https://docs.google.com/forms/d/1Svje9yPiRF-ibUm5YkZvIoU_JOBlHKs6799oA1Iwlro/viewform?usp=send_form">
                     <img class="media-object img-responsive" src="img/text_document.png" alt="document">
                   </a>
                   <div class="media-body">
