@@ -50,11 +50,13 @@
                 </address>
 -->
                 <p>It's the Fall 15s Season again! Practices are Tuesdays and Thursdays at 7:30 to 9:30 at Hill Street Skate Park.</p>
-                 <address>
+                <div id="map"></div> 
+                <address>
                     <strong>Hill Street Skate Park</strong><br>
                     100 Hill St<br>
                     Frederick, MD 21703<br>
                 </address>
+                
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 events">
                 <h1>Upcoming Events</h1>
@@ -256,7 +258,7 @@
             </div>
         </div>
         <div class="row fourth" id="mr">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 media not-active">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 media mediaImage not-active">
                 <a href="media.php" id="media-link"><img src="img/media2.png" alt="Media"></a>
             <p>Coming Soon!!!</p>
             </div>
@@ -266,7 +268,7 @@
                 <p>Coming Soon!!!</p>
             </div>
         </div>
-        <div class="row" id="contactandpay">
+        <div class="row fifth" id="contactandpay">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 contact">
                 <h1>Interested in Joining? <small>Contact Us!</small></h1>
                 <form class="form-horizontal" role="form" method="post" action="index.php">
@@ -365,8 +367,8 @@
                 </div>
             </div>
         </div>
-         <div class="row" id="important">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  media" id="cipp">
+         <div class="row sixth" id="important">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 register  media" id="cipp">
                 <h1>Everyone CIPPs</h1>
                 <a class="pull-left" href="https://platform.allplayers.com/g/frederick_women_s_rugby_football_club-17320_2013/register?destination=https%3A%2F%2Fplatform.allplayers.com%2Fg%2Fusarugby_2013%2Fregister&from=110e430f-017c-11e3-9d8d-22000a929134"><img src="img/social_media/usarugby1.png" alt="Cipp Here" class="media-object img-responsive"></a>
                 <div class="media-body">

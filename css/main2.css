@@ -1,0 +1,202 @@
+body{
+    font-size: 1.5em;
+}
+
+p, address{
+    font-size: 1.5em;
+}
+
+
+.banner{
+    background-image: url(../img/grassTex/wet_grass_black_Gauss.png);
+}
+
+.banner img{
+    padding-top: 70px;
+    width:100%;
+}
+.about{
+    background-image: url(../img/silver_scales/silver_scales.png);
+    padding-bottom: 50px;
+}
+
+.about img{
+    padding-top: 1%;
+    padding-left: 45%;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.about p{
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 1.5em;
+}
+
+.second{
+    background-color: #1E824C;
+}
+
+.practice{
+    background-image: url(../img/low_contrast_linen/low_contrast_linen_@2X.png);
+    color: #F2F1EF;
+    padding-bottom: 10px;
+}
+
+.practice p{
+    padding:5px 15px;
+}
+
+.practice address{
+    padding-top: 15px;
+    text-align: center;
+}
+/*Need to add media queries for this*/
+.practice #map{
+    margin-left: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+.events table{
+    margin-top: 50px;
+    background-color: #DADFE1;
+    overflow-y: scroll;
+}
+
+.events table thead{
+    font-size: 1.2em;
+}
+    
+.third{
+    background-color: #6C7A89;
+    background-image: url(../img/textured_stripes/textured_stripes.png);
+}
+
+.schedule table{
+    background-color: #DADFE1;
+    overflow-y: scroll;
+}
+
+.schedule thead{
+    font-size: 1.2em;
+}
+
+.fourth{
+    height: 300px;
+}
+
+.mediaImage{
+    padding-top: 90px;
+    padding-left: 125px;
+    height:100%;
+    background-image: url(../img/cubesOrig.png);
+}
+
+.roster{
+    padding-top: 90px;
+    padding-left: 125px;
+    height:100%;
+    background-image: url(../img/low_contrast_linen/low_contrast_linen_@2X.png);
+    color: #DADFE1;
+}
+
+.fifth{
+    height: 390px;
+}
+
+.contact{
+    background-color: #68C3A3;
+}
+
+#pay{
+    height:100%;
+    padding-left: 25px;
+    background-image: url(../img/diamond_upholstery/diamond_upholstery.png)
+}
+
+#pay #dues{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.button{
+    width:125px;
+    margin-top: 10px;
+}
+
+.sixth{
+    border: solid 3px #BDC3C7;
+    height:427px;
+    background-color: #6C7A89;
+    color: #EEEEEE;
+}
+
+.register{
+    font-size: .8em;
+    padding-bottom: 10px;
+}
+
+.register li{
+    padding:5px;
+    font-size: 1.5em;
+}
+
+.register img{
+    width:100px;
+}
+
+#docs{
+    border-left: solid 3px #BDC3C7;
+    height:100%;
+}
+
+#docs img{
+     margin-left: 38%;
+}
+
+#docs p, h2{
+    text-align: center;
+}
+
+#feeds{
+    height: 575px;
+    border-bottom: solid 5px darkgrey;
+}
+
+#feeds #fb{
+    height: 100%;
+    padding-left: 30px;
+    background-color: #ECECEC;
+}
+
+#tw{
+    height: 100%;
+    background-color: #00B16A;
+}
+
+
+
+#footer, #footer2{
+    height:100%;
+    background-color: black;
+    color:lightgrey;
+}
+
+.end .social{
+    text-align: center;
+    padding-top: 25px;
+}
+
+#footer2{
+    padding-bottom: 25px;
+}
+
+
+
+@media(min-width:800px){
+   
+}

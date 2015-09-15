@@ -16,14 +16,30 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--  Custom CSS  -->
-    <link href="css/main.css" rel="stylesheet">
-    
+<!--    <link href="css/main.css" rel="stylesheet">-->
+    <link href="css/main2.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+ <script>
+  function initialize() {
+    var mapCanvas = document.getElementById('map');
+    var mapOptions = {
+      center: new google.maps.LatLng(39.413205,-77.4490153),
+      zoom: 17,
+      mapTypeId: google.maps.MapTypeId.SATALITE
+    }
+    
+   
+    var map = new google.maps.Map(mapCanvas, mapOptions)
+  }
+     
+     
+  google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </head>
 
 <body>
