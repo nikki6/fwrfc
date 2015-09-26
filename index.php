@@ -124,7 +124,7 @@
             </div>
         </div>
         <div class="row third" id="games">
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 schedule">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7  schedule">
                 <h1>Our Schedule</h1>
                 <table class="table table-striped table-bordered table-responsive">
                     <thead>
@@ -255,6 +255,9 @@
                 <div class="map">
                     
                 </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5  calendar">
+                <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%2333cc00&amp;src=tae9dbha2rh71psku5orfqekf4%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style=" border:solid 4px #777 " width="570" height="700" frameborder="0" scrolling="no"></iframe> 
             </div>
         </div>
         <div class="row fourth" id="mr">

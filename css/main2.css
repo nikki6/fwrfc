@@ -9,6 +9,7 @@ p, address{
 
 .banner{
     background-image: url(../img/grassTex/wet_grass_black_Gauss.png);
+    width: 100.87%;
 }
 
 .banner img{
@@ -38,6 +39,7 @@ p, address{
 
 .second{
     background-color: #1E824C;
+    border: solid 3px #22313F;
 }
 
 .practice{
@@ -56,7 +58,7 @@ p, address{
 }
 /*Need to add media queries for this*/
 .practice #map{
-    margin-left: 20px;
+    margin-left: 22%;
     width: 500px;
     height: 400px;
 }
@@ -69,6 +71,7 @@ p, address{
 
 .events table thead{
     font-size: 1.2em;
+    
 }
     
 .third{
@@ -79,14 +82,20 @@ p, address{
 .schedule table{
     background-color: #DADFE1;
     overflow-y: scroll;
+    border: solid 3px black;
 }
 
-.schedule thead{
+.schedule thead th{
     font-size: 1.2em;
+}
+
+.calendar{
+    margin-top: 4.7%;
 }
 
 .fourth{
     height: 300px;
+    border-top: solid 3px #22313F;
 }
 
 .mediaImage{
@@ -105,7 +114,10 @@ p, address{
 }
 
 .fifth{
-    height: 390px;
+    height: 396px;
+    background-color: #68C3A3;
+    border-top: solid 3px #22313F;
+/*    border-bottom: solid 3px #BDC3C7;*/
 }
 
 .contact{
@@ -115,7 +127,8 @@ p, address{
 #pay{
     height:100%;
     padding-left: 25px;
-    background-image: url(../img/diamond_upholstery/diamond_upholstery.png)
+    border-left: solid 3px #BDC3C7;
+/*    background-image: url(../img/diamond_upholstery/diamond_upholstery.png)*/
 }
 
 #pay #dues{
@@ -138,6 +151,16 @@ p, address{
 .register{
     font-size: .8em;
     padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.register a{
+    color: navy;
+}
+
+.register a:hover{
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .register li{
@@ -156,6 +179,7 @@ p, address{
 
 #docs img{
      margin-left: 38%;
+    margin-top: 55px;
 }
 
 #docs p, h2{
@@ -171,11 +195,15 @@ p, address{
     height: 100%;
     padding-left: 30px;
     background-color: #ECECEC;
+    text-align: center;
+    background-image: url(../img/silver_scales/silver_scales.png);
 }
 
 #tw{
     height: 100%;
     background-color: #00B16A;
+    border-left: solid 3px #BDC3C7;
+    text-align: center;
 }
 
 
