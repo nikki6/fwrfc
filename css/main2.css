@@ -1,3 +1,122 @@
+@media screen and (min-width: 420px) and (max-width: 568px){
+    h1, h2{
+        font-size: 1.9em;
+    }
+
+    body{
+        width:410px;
+    }
+
+    p{
+        font-size: 1em;
+    }
+    .banner{
+        width:104%;
+    }
+   .about{
+    background-image: url(../img/silver_scales/silver_scales.png);
+    padding-bottom: 50px;
+    }
+
+    .about #logo{
+        text-align: center;
+        padding-left: -100px;
+        display:none;
+        /*padding-left: 25%;*/
+    }
+
+    .about h1{
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .about p{
+        font-size: .7em;
+    }
+    .practice #map{
+        display: none;
+    }
+    .sixth{
+        height: 100%;
+    }
+    #pay, #cipp, #docs{
+        font-size: 1em;
+        /*text-align: center;*/
+    }
+    #pay, #docs{
+        text-align: center;
+    }
+    #cipp{
+        padding-top: 100px;
+    }
+    #docs #cipp{
+        border-top:solid 3px #BDC3C7; 
+    }
+     #pay{
+        border-top:solid 3px #BDC3C7; 
+        margin-bottom: 50px;
+    }
+     #pay h1, #cipp h1, #docs h1, #pay h2, #cipp h2, #docs h2{
+        font-size: 1.9em;
+    }
+
+    #donate{
+        text-align: center;
+    }
+    .register li{
+        padding:5px;
+        font-size: 1em;
+    }
+    .calendar iframe{
+        display: none;
+    }
+    .schedule{
+        padding-left: 7px;
+    }
+    .schedule table{
+    background-color: #DADFE1;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    border: solid 3px black;
+    width:360px;
+}
+    .mediaImage, .roster{
+        padding-left: 0px;
+        padding-right: 200px;
+        height: 100px;
+    }
+    .mediaImage img{
+        width: 200%;
+    }
+
+    .roster img{
+        width: 200%;
+        /*padding-left: -50px;*/
+    }
+    #feeds #fb{
+        width:100%;
+        padding-left: 5px;
+        background-color: #ECECEC;
+        text-align: center;
+        background-image: url(../img/silver_scales/silver_scales.png);
+    }
+}
+@media screen and (min-width: 568px) and (max-width: 1053px){
+   
+    .contact form{
+        margin-top: -10px;
+    }
+
+    #swagg{
+        border-right: hidden;
+    }
+
+    #swagg, #donate{
+        margin-top: -45px;
+        margin-bottom: 50px;
+    }
+
+}
 body{
     font-size: 1.5em;
 }
@@ -71,7 +190,6 @@ p, address{
 
 .events table thead{
     font-size: 1.2em;
-    
 }
     
 .third{
@@ -82,10 +200,9 @@ p, address{
 .schedule table{
     background-color: #DADFE1;
     overflow-y: scroll;
-    border: solid 3px black;
 }
 
-.schedule thead th{
+.schedule thead{
     font-size: 1.2em;
 }
 
@@ -114,7 +231,7 @@ p, address{
 }
 
 .fifth{
-    height: 396px;
+    height: 455px;
     background-color: #68C3A3;
     border-top: solid 3px #22313F;
 /*    border-bottom: solid 3px #BDC3C7;*/
@@ -124,6 +241,10 @@ p, address{
     background-color: #68C3A3;
 }
 
+.contact form{
+    padding-top: 20px;
+}
+
 #pay{
     height:100%;
     padding-left: 25px;
@@ -131,7 +252,7 @@ p, address{
 /*    background-image: url(../img/diamond_upholstery/diamond_upholstery.png)*/
 }
 
-#pay #dues{
+#pay #dues,#swagg {
     text-align: center;
     font-size: 1.5em;
 }
@@ -141,9 +262,29 @@ p, address{
     margin-top: 10px;
 }
 
+#swagg{
+    border-right: solid 3px #BDC3C7;
+
+}
+
+#swagg table{
+    
+}
+
+#swagg form{
+    text-align: center;
+}
+
+#swagg, #donate{
+    padding-top: 50px;
+}
+#donate form{
+    text-align: center;
+}
+
 .sixth{
     border: solid 3px #BDC3C7;
-    height:427px;
+    /*height:427px;*/
     background-color: #6C7A89;
     color: #EEEEEE;
 }
@@ -221,10 +362,4 @@ p, address{
 
 #footer2{
     padding-bottom: 25px;
-}
-
-
-
-@media(min-width:800px){
-   
 }

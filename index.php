@@ -49,7 +49,7 @@
                     Frederick, MD 21702<br>
                 </address>
 -->
-                <p>It's the Fall 15s Season again! Practices are Tuesdays and Thursdays at 7:30 to 9:30 at Hill Street Skate Park.</p>
+                <p>It's the Fall 15s Season again! Practices are Tuesdays and Thursdays at 7:30 to 9:30 at Hill Street Skate Park. The Last Practice of the season is November 5th.</p>
                 <div id="map"></div> 
                 <address>
                     <strong>Hill Street Skate Park</strong><br>
@@ -70,42 +70,7 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>August 11</td>
-                            <td>Pre-Season Meeting</td>
-                            <td>Blueside Tavern on Bentz Street</td>
-                        </tr>
-                        <tr>
-                            <td>August 20</td>
-                            <td>Shauna's Birthday</td>
-                            <td>Blueside Tavern from 8pm till Close</td>
-                        </tr>
-                        <tr>
-                            <td>August 22</td>
-                            <td>House Crawl</td>
-                            <td>Tenative and still to be determined</td>
-                        </tr>
-                        <tr>
-                            <td>August 25</td>
-                            <td>Start of the Fall Practices</td>
-                            <td>Hill Street Skate Park</td>
-                        </tr>
-                        <tr>
-                            <td>September 11</td>
-                            <td>Field Lining and Pasta Party</td>
-                            <td>Walnut Ridge</td>
-                        </tr>
-                        <tr>
-                            <td>September 26</td>
-                            <td>Informational Booth</td>
-                            <td>The Frederick County Fair</td>
-                        </tr>
-                        <tr>
-                            <td>October 31</td>
-                            <td>Halloween Crawl</td>
-                            <td>Downtown Frederick</td>
-                        </tr>
-                        <tr>
-                            <td>November 14-15</td>
+                            <td>November 13-15</td>
                             <td>Fall Retreat</td>
                             <td>Deep Creek Lake</td>
                         </tr>
@@ -117,7 +82,10 @@
                         <tr>
                             <td>December 12</td>
                             <td>Santa Run and Bar Crawl</td>
-                            <td>Downtown Frederick</td>
+                            <td><b>When:</b> Sat, Dec 12. 6PM Registration at The Blue Side, 6 South Bentz Street, Frederick, MD</br>
+                <b>Why:</b> Proceeds benefit Frederick Food Bank and Relay for Life</br>
+                <b>How:</b> $10 purchase of wristband to access tour of pub and restaurants. Tourists wear their best Santa and
+                Holiday themed attire. Advance ticken sales available at MDTix.com</td>
                         </tr>
                     </tbody>
                 </table>
@@ -140,25 +108,25 @@
                             <td>June 27</td>
                             <td>Harrisburg 7s</td>
                             <td>Harrisburg, PA</td>
-                            <td></td>
+                            <td>L</td>
                         </tr>
                         <tr>
                             <td>July 13</td>
                             <td>Steel City 7s</td>
                             <td>Pittsburg, PA</td>
-                            <td></td>
+                            <td>L</td>
                         </tr>
                         <tr>
                             <td>September 12</td>
                             <td>NOVA</td>
                             <td>Walnut Ridge</td>
-                            <td></td>
+                            <td>L</td>
                         </tr>
                         <tr>
                             <td>September 19</td>
                             <td>Chesapeake</td>
                             <td>Away - Chesapeake</td>
-                            <td></td>
+                            <td>L</td>
                         </tr>
                         <tr>
                             <td>September 26</td>
@@ -170,13 +138,13 @@
                             <td>October 3</td>
                             <td>Harrisburg</td>
                             <td>Walnut Ridge</td>
-                            <td></td>
+                            <td>L</td>
                         </tr>
                         <tr>
                             <td>October 10</td>
                             <td>Furies</td>
                             <td>Walnut Ridge</td>
-                            <td></td>
+                            <td>L</td>
                         </tr>
                         <tr>
                             <td>October 17</td>
@@ -188,13 +156,13 @@
                             <td>October 24</td>
                             <td>Doylestown</td>
                             <td>Walnut Ridge</td>
-                            <td></td>
+                            <td>L</td>
                         </tr>
                         <tr>
                             <td>October 31</td>
                             <td>Brandywine</td>
                             <td>Brandywine, PA</td>
-                            <td></td>
+                            <td>L</td>
                         </tr>
                         <tr>
                             <td>November 7</td>
@@ -209,43 +177,43 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>March 12</td>
+                            <td>March 12 2016</td>
                             <td>Free Weekend</td>
                             <td></td>
                             <td></td>
                         </tr>
                          <tr>
-                            <td>March 19</td>
+                            <td>March 19 2016</td>
                             <td>Free Weekend</td>
                             <td></td>
                             <td></td>
                         </tr>
                          <tr>
-                            <td>March 26</td>
+                            <td>March 26 2016</td>
                             <td>Free Weekend</td>
                             <td>Easter</td>
                             <td></td>
                         </tr>
                          <tr>
-                            <td>April 2</td>
+                            <td>April 2 2016</td>
                             <td>BYE</td>
                             <td></td>
                             <td></td>
                         </tr>
                          <tr>
-                            <td>April 9</td>
+                            <td>April 9 2016</td>
                             <td>Stingers</td>
                             <td>Baltimore, MD</td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td>April 16</td>
+                            <td>April 16 2016</td>
                             <td>Makeup Weekend</td>
                             <td></td>
                             <td></td>
                         </tr>
                         <tr>
-                            <td>May 14</td>
+                            <td>May 14 2016</td>
                             <td>MAC</td>
                             <td>Championships</td>
                             <td></td>
@@ -267,8 +235,20 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 roster not-active">                
 <!--                <div class = "shape"></div>-->
-                <a href="roster.php"><img  src="img/ourRosterWhite.png" alt="Our Roster">  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+               
+ <a href="roster.php"><img  src="img/ourRosterWhite.png" alt="Our Roster">  <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
                 <p>Coming Soon!!!</p>
+
+                <!-- 
+<h1>Santa Crawl 2015!</h1>
+                <p><b>Who:</b> Men and Women of Frederick Rugby</p>
+                <p><b>What:</b> 11th Annual Santa Tour</p>
+                <p><b>Where:</b> Downtown Frederick, MD, USA</p>
+                <p><b>When:</b> Sat, Dec 12. 6PM Registration at The Blue Side, 6 South Bentz Street, Frederick, MD</p>
+                <p><b>Why:</b> Proceeds benefit Frederick Food Bank and Relay for Life</p>
+                <p><b>How:</b> $10 purchase of wristband to access tour of pub and restaurants. Tourists wear their best Santa and
+                Holiday themed attire. Advance ticken sales available at MDTix.com</p>
+ -->
             </div>
         </div>
         <div class="row fifth" id="contactandpay">
@@ -382,7 +362,6 @@
                 </ol>
                 <p>The cost to be registered is: &#36;60.00. This will give you a secondary insurance and will get you registered as a USA rugby player.</p>
                 <p class = "important">&#42;You must have this to play.&#42;</p>
-                <p>Forward information to the <a href="mailto:fwrfc.execsec@yahoo.com">Executive Secretary</a> after you have registered. Also if you need help you can contact the Executive Secretary and she will walk you through it.</p>
                 </div>
             </div>
              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="docs">
