@@ -1,122 +1,5 @@
-@media screen and (min-width: 420px) and (max-width: 568px){
-    h1, h2{
-        font-size: 1.9em;
-    }
 
-    body{
-        width:410px;
-    }
 
-    p{
-        font-size: 1em;
-    }
-    .banner{
-        width:104%;
-    }
-   .about{
-    background-image: url(../img/silver_scales/silver_scales.png);
-    padding-bottom: 50px;
-    }
-
-    .about #logo{
-        text-align: center;
-        padding-left: -100px;
-        display:none;
-        /*padding-left: 25%;*/
-    }
-
-    .about h1{
-        text-align: center;
-        font-size: 2em;
-    }
-
-    .about p{
-        font-size: .7em;
-    }
-    .practice #map{
-        display: none;
-    }
-    .sixth{
-        height: 100%;
-    }
-    #pay, #cipp, #docs{
-        font-size: 1em;
-        /*text-align: center;*/
-    }
-    #pay, #docs{
-        text-align: center;
-    }
-    #cipp{
-        padding-top: 100px;
-    }
-    #docs #cipp{
-        border-top:solid 3px #BDC3C7; 
-    }
-     #pay{
-        border-top:solid 3px #BDC3C7; 
-        margin-bottom: 50px;
-    }
-     #pay h1, #cipp h1, #docs h1, #pay h2, #cipp h2, #docs h2{
-        font-size: 1.9em;
-    }
-
-    #donate{
-        text-align: center;
-    }
-    .register li{
-        padding:5px;
-        font-size: 1em;
-    }
-    .calendar iframe{
-        display: none;
-    }
-    .schedule{
-        padding-left: 7px;
-    }
-    .schedule table{
-    background-color: #DADFE1;
-    overflow-y: scroll;
-    overflow-x: scroll;
-    border: solid 3px black;
-    width:360px;
-}
-    .mediaImage, .roster{
-        padding-left: 0px;
-        padding-right: 200px;
-        height: 100px;
-    }
-    .mediaImage img{
-        width: 200%;
-    }
-
-    .roster img{
-        width: 200%;
-        /*padding-left: -50px;*/
-    }
-    #feeds #fb{
-        width:100%;
-        padding-left: 5px;
-        background-color: #ECECEC;
-        text-align: center;
-        background-image: url(../img/silver_scales/silver_scales.png);
-    }
-}
-@media screen and (min-width: 568px) and (max-width: 1053px){
-   
-    .contact form{
-        margin-top: -10px;
-    }
-
-    #swagg{
-        border-right: hidden;
-    }
-
-    #swagg, #donate{
-        margin-top: -45px;
-        margin-bottom: 50px;
-    }
-
-}
 body{
     font-size: 1.5em;
 }
@@ -128,7 +11,7 @@ p, address{
 
 .banner{
     background-image: url(../img/grassTex/wet_grass_black_Gauss.png);
-    width: 100.87%;
+    width: 105%;
 }
 
 .banner img{
@@ -142,7 +25,6 @@ p, address{
 
 .about img{
     padding-top: 1%;
-    padding-left: 45%;
 }
 
 .about h1{
@@ -175,9 +57,13 @@ p, address{
     padding-top: 15px;
     text-align: center;
 }
+
+#pracMap{
+		text-align:center;
+	}
 /*Need to add media queries for this*/
 .practice #map{
-    margin-left: 22%;
+	text-align:center;
     width: 500px;
     height: 400px;
 }
@@ -208,6 +94,7 @@ p, address{
 
 .calendar{
     margin-top: 4.7%;
+    overflow: scroll;
 }
 
 .fourth{
@@ -252,7 +139,7 @@ p, address{
 /*    background-image: url(../img/diamond_upholstery/diamond_upholstery.png)*/
 }
 
-#pay #dues,#swagg {
+#pay #dues,#swagg, #banquets {
     text-align: center;
     font-size: 1.5em;
 }
@@ -275,6 +162,19 @@ p, address{
     text-align: center;
 }
 
+#banquets .button{
+	width:100px;
+	margin-top: 5px;
+}
+
+#banquets h2{
+	font-size:1.2em
+}
+
+#banquets table{
+	font-size:.7em;
+}
+
 #swagg, #donate{
     padding-top: 50px;
 }
@@ -293,6 +193,7 @@ p, address{
     font-size: .8em;
     padding-bottom: 10px;
     padding-left: 25px;
+	padding-top:50px;
 }
 
 .register a{
@@ -362,4 +263,187 @@ p, address{
 
 #footer2{
     padding-bottom: 25px;
+}
+@media screen and (min-width: 568px) and (max-width: 1000px){
+   
+    .contact form{
+        margin-top: -10px;
+    }
+
+    #swagg{
+        border-right: hidden;
+    }
+
+    #swagg, #donate{
+        margin-top: -45px;
+        margin-bottom: 50px;
+    }
+	
+	#map{
+		display:none;
+	}
+	
+	.practice{
+		height:500px;
+	}
+
+}
+@media screen and (min-width: 480px) and (max-width: 568px){
+    h1, h2{
+        font-size: 1.9em;
+    }
+
+
+    p{
+        font-size: 1em;
+    }
+    .banner{
+        width:104%;
+    }
+   .about{
+    background-image: url(../img/silver_scales/silver_scales.png);
+    padding-bottom: 50px;
+    }
+
+    .about #logo{
+        text-align: center;
+        /*display:none;*/
+        /*padding-left: 25%;*/
+    }
+
+    .about h1{
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .about p{
+        font-size: .7em;
+    }
+    .practice #map{
+        display: none;
+    }
+	#pay{
+		/*overflow:scroll;*/
+		height: 575px;
+	}
+    .sixth{
+        height: 100%;
+    }
+    #pay, #cipp, #docs{
+        font-size: 1em;
+        /*text-align: center;*/
+    }
+    #pay, #docs{
+        text-align: center;
+    }
+    #cipp{
+      
+    }
+    #docs #cipp{
+        border-top:solid 3px #BDC3C7; 
+    }
+     #pay{
+        border-top:solid 3px #BDC3C7; 
+        margin-bottom: 50px;
+    }
+     #pay h1, #cipp h1, #docs h1, #pay h2, #cipp h2, #docs h2{
+        font-size: 1.9em;
+    }
+
+    #donate{
+        text-align: center;
+    }
+    .register li{
+        padding:5px;
+        font-size: 1em;
+    }
+    .calendar iframe{
+        display: none;
+    }
+    .schedule{
+        padding-left: 7px;
+    }
+    .schedule table{
+		background-color: #DADFE1;
+		overflow-y: scroll;
+		overflow-x: scroll;
+		border: solid 3px black;
+		width:360px;
+	}
+    .mediaImage, .roster{
+        padding-left: 0px;
+        padding-right: 200px;
+    }
+    .mediaImage img{
+        width: 100%;
+    }
+	
+	#pracMap{
+		text-align:center;
+	}
+	.register{	
+		border-top:solid 3px #BDC3C7;	
+	}
+	#docs{
+		border-top:solid 3px #BDC3C7;
+	}
+	#map{
+		width:250px;
+		text-align:center;
+	}
+
+    .roster img{
+        width: 100%;
+        /*padding-left: -50px;*/
+    }
+    #feeds #fb{
+        width:100%;
+        padding-left: 5px;
+        background-color: #ECECEC;
+        text-align: center;
+        background-image: url(../img/silver_scales/silver_scales.png);
+    }
+}
+@media screen and (max-width: 479px){
+	h1, h2{
+        font-size: 1.9em;
+    }
+
+
+    p{
+        font-size: 1em;
+    }
+    .banner{
+        width:104%;
+    }
+    .about #logo{
+        text-align: center;
+        display:none;
+        /*padding-left: 25%;*/
+    }
+	#map{
+		display:none;
+	}
+	#pay{
+		overflow:scroll;
+		/*height: 575px;*/
+	}
+	.third{
+		overflow:scroll;
+	}
+	.calendar iframe{
+        display: none;
+    }
+	.calendar{
+		overflow:hidden;
+	}
+	 .mediaImage img{
+        width: 100%;
+		
+    }
+	
+    .roster img{
+        width: 100%;
+        /*padding-left: -50px;*/
+    }
 }
