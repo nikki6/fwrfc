@@ -11,7 +11,7 @@ p, address{
 
 .banner{
     background-image: url(../img/grassTex/wet_grass_black_Gauss.png);
-    width: 105%;
+    width: 102%;
 }
 
 .banner img{
@@ -37,7 +37,15 @@ p, address{
     padding-right: 15%;
     font-size: 1.5em;
 }
-
+#sponser{
+    background-color: #6C7A89;
+    border: solid 3px #22313F;
+    padding-bottom: 50px;
+}
+#r2p{
+    width:300px;
+    margin-right:100px;
+}
 .second{
     background-color: #1E824C;
     border: solid 3px #22313F;

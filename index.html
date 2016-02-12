@@ -28,7 +28,8 @@
   function initialize() {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
-      center: new google.maps.LatLng(39.413205,-77.4490153),
+//       center: new google.maps.LatLng(39.413205,-77.4490153),
+	  center: new google.maps.LatLng(39.4287632,-77.4139319),
       zoom: 17,
       mapTypeId: google.maps.MapTypeId.SATALITE
     }
@@ -128,14 +129,16 @@
                 </p>
             </div>
         </div>
-<!--
-         <div class="row second" id="sponser">
+
+         <div class="row" id="sponser">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 sponsers">
-                <h1>Our Sponsers</h1>
-                <img src="img/sponsers/bushwallers_logo.jpg" ><img src="img/sponsers/ilfornologocontent.gif">
+                <h1>Our Sponsors</h1>
+                <center>
+                <img src="img/sponsers/Rehab2PerformLogo-black.png" alt="Rehab 2 Perform" id="r2p"><img src="img/sponsers/ilfornologocontent.gif">
+                </center>
              </div>
         </div>
--->
+
         <div class="row second" id="pe">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 practice">
                 <div class = "shape"></div>
@@ -148,13 +151,19 @@
                     Frederick, MD 21702<br>
                 </address>
 -->
-                <p>It's the Fall 15s Season again! Practices are Tuesdays and Thursdays at 7:30 to 9:30 at Hill Street Skate Park. The Last Practice of the season is November 5th.</p>
+                <p>It's the Spring 15s Season again! February 18th & 25th and March 3rd  7:30-9:00 pm practices are inside at the address below.</p>
                <center> <div id="map"></div> </center>
-                <address>
+               	<address>
+                    <strong>North Frederick Elementary School</strong><br/>
+            		1010 Fairview Ave<br/> Frederick, MD 21701   
+                </address>
+               <!-- 
+ <address>
                     <strong>Hill Street Skate Park</strong><br>
                     100 Hill St<br>
                     Frederick, MD 21703<br>
                 </address>
+ -->
                 
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 events">
@@ -168,28 +177,22 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>November 13-15</td>
-                            <td>Fall Retreat</td>
-                            <td>Deep Creek Lake</td>
+                   	 	<tr>
+                        	<td>February 16, 2016 @ 7:30</td>
+                        	<td>Preseason Meeting</td>
+                        	<td>TBD</td>
                         </tr>
                         <tr>
-                            <td>November 26</td>
-                            <td>Turkey Trot</td>
-                            <td>Downtown Frederick</td>
+                            <td>May 14, 2016</td>
+                            <td>Maryland Celtic Festival</td>
+                            <td>Mt. Airy</td>
                         </tr>
                         <tr>
-                            <td>December 12</td>
-                            <td>Santa Run and Bar Crawl</td>
-                            <td><b>When:</b> Sat, Dec 12. 6PM Registration at The Blue Side, 6 South Bentz Street, Frederick, MD</br>
-                <b>Why:</b> Proceeds benefit Frederick Food Bank and Relay for Life</br>
-                <b>How:</b> $10 purchase of wristband to access tour of pub and restaurants. Tourists wear their best Santa and Holiday themed attire. Advance ticken sales available at MDTix.com</td>
+                            <td>May 21, 2016</td>
+                            <td>Beer Bacon Music</td>
+                            <td>Frederick Fair Grounds</td>
                         </tr>
-                        <tr>
-                            <td>January 30</td>
-                            <td>Winter Banquet</td>
-                            <td>The Red Horse</td>
-                        </tr>
+                        
                     </tbody>
                 </table>
             </div>
@@ -281,15 +284,15 @@
                             <td></td>
                         </tr>
                         <tr>
-                            <td>March 12 2016</td>
-                            <td>Free Weekend</td>
+                            <td>March 11-13 2016</td>
+                            <td>Savannah Tournament</td>
                             <td></td>
                             <td></td>
                         </tr>
                          <tr>
                             <td>March 19 2016</td>
-                            <td>Free Weekend</td>
-                            <td></td>
+                            <td>Norfolk</td>
+                            <td>Walnut Ridge</td>
                             <td></td>
                         </tr>
                          <tr>
@@ -300,8 +303,8 @@
                         </tr>
                          <tr>
                             <td>April 2 2016</td>
-                            <td>BYE</td>
-                            <td></td>
+                            <td>Towson</td>
+                            <td>Walnut Ridge</td>
                             <td></td>
                         </tr>
                          <tr>
@@ -312,14 +315,32 @@
                         </tr>
                         <tr>
                             <td>April 16 2016</td>
-                            <td>Makeup Weekend</td>
+                            <td>Harrisburg</td>
+                            <td>Walnut Ridge</td>
                             <td></td>
+                        </tr>
+                        <tr>
+                            <td>April 23 2016</td>
+                            <td>TBD- Makeup Weekend</td>
+                            <td>TBD</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>April 30 2016</td>
+                            <td>Severn- Triebel Cup</td>
+                            <td>Walnut Ridge</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>May 9 2016</td>
+                            <td>Chesapeake</td>
+                            <td>TBD</td>
                             <td></td>
                         </tr>
                         <tr>
                             <td>May 14 2016</td>
-                            <td>MAC</td>
-                            <td>Championships</td>
+                            <td>Maryland Celtic Festival</td>
+                            <td>Mt. Airy</td>
                             <td></td>
                         </tr>
                     </tbody>
@@ -428,21 +449,25 @@
                 </div>
                 <div class="row">
 
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="banquets">
+                    <!-- 
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="banquets">
                     <h2>Winter Banquet Tickets for January 30th</h2>
                     <center>
-                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="RA3EA6AVDCAK2">
-                            <table>
-                            <tr><td><input type="hidden" name="on0" value="Attending?">Attending?</td></tr><tr><td><select name="os0">
-                            <option value="RSVP">RSVP $41.21 USD</option>
-                            </select> </td></tr>
-                            </table>
-                            <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="img/buttons/add_Normal.png" class="button" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        </form>
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="RA3EA6AVDCAK2">
+						<table>
+						<tr><td><input type="hidden" name="on0" value="Attending?">Attending?</td></tr><tr><td><select name="os0">
+							<option value="RSVP">RSVP $51.71 USD</option>
+						</select> </td></tr>
+						</table>
+						<input type="hidden" name="currency_code" value="USD">
+						<input type="image" src="img/buttons/add_Normal.png" class="button" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
+ -->
+
+                        
                         </center>
                     </div>
 
@@ -468,7 +493,7 @@
          <div class="row sixth" id="important">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 register media" id="cipp">
                 <h1>Everyone CIPPs</h1>
-                <a class="pull-left" href="https://platform.allplayers.com/g/frederick_women_s_rugby_football_club-17320_2013/register?destination=https%3A%2F%2Fplatform.allplayers.com%2Fg%2Fusarugby_2013%2Fregister&from=110e430f-017c-11e3-9d8d-22000a929134"><img src="img/social_media/usarugby1.png" alt="Cipp Here" class="media-object img-responsive"></a>
+                <a class="pull-left" href="https://webpoint.usarugby.org/"><img src="img/social_media/usarugby1.png" alt="Cipp Here" class="media-object img-responsive"></a>
                 <div class="media-body">
                  <ol>
                     <li>Click on the icon to the left</li>
