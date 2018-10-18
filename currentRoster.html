@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <title>Frederick Women's Rugby Football Club</title>
+  <!-- CSS Reset   -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--  Custom CSS  -->
+  <!--    <link href="css/main.css" rel="stylesheet">-->
+  <link href="css/main2.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script>
+  function initialize() {
+    var mapCanvas = document.getElementById('map');
+    var mapOptions = {
+      center: new google.maps.LatLng(39.41325,-77.449153),
+      zoom: 17,
+      mapTypeId: google.maps.MapTypeId.SATALITE
+    }
+
+
+    var map = new google.maps.Map(mapCanvas, mapOptions)
+  }
+
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top" >
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">FWRFC</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a>
+          </li>
+          <li><a href="index.html#history">About</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">The Team <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="roster.html">Our Family</a>
+              </li>
+              <li><a href="index.html#games">The Schedule</a>
+              </li>
+            </ul>
+          </li>
+          <li class="disabled"><a href="media.php" >Media</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Our Teams <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="http://www.frederickrugby.org">FRFC</a>
+              </li>
+              <li><a href="http://www.frederickyouthrugby.org/">Youth</a>
+              </li>
+              <li><a href="http://www.wildgeeserugby.com/">Old Boys</a>
+              </li>
+              <li><a href="http://frederickrugby.org/">The Foundation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+  <!--  End of Navigation Bar  -->
+
+  <!--  Banner  -->
+  <!-- <div class="row banner">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <img src="img/titleBanners/FWRFCTitle_3.png" alt="Frederick Women's Rugby Football Club">
+</div>
+</div> -->
+<div class="container-fluid"style="padding-top: 4px;">
+  <div class="">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 about" id="history">
+      <!--                <img src="img/leftsideoflogo.png" alt="-----">-->
+      <center> <img src="img/FWRFC_Logo_Art.png" alt="FWRFC" id="logo" class="img-responsive"></center>
+      <!--                <img src="img/leftsideoflogo.png" alt="-----">-->
+      <h1>Current Roster</h1>
+      <center>
+        <table style="width: 75%; text-align:center;"class="table table-striped table-bordered table-responsive">
+          <tr >
+           <td>Player
+           Name</td>
+           <td>Nickname</td>
+          </tr>
+          <tr>
+           <td>Alicia Wojcik</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Allison Humphries</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Autumn Brennan</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Carol Caffero</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Celestine Pere</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Danielle Needle</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Debra Jaquith</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Destiny Marie
+           Blanca Alvarado-Cardenas</td>
+           <td>Density</td>
+          </tr>
+          <tr>
+           <td>Elicia Eberhart</td>
+           <td>Lish</td>
+          </tr>
+          <tr>
+           <td>Erin Carroll</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Fawne Robinson</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Finch Boynton</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Frannie Caroscio</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Glennis
+           Kanae-Rodrigues</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Jami Earle</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Jessica McBroom</td>
+           <td>Puss</td>
+          </tr>
+          <tr>
+           <td>Joanna Neal</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Kara Althoff</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Kelly Stiles</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Keren Toledo</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Lacy Ames</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Lisa Bowers</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Maria Rodriguez</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Mary Laudenklos</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Marya Asad</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Megan Hodgson</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Megan Kraft</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Michelle
+           Himmelstein</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Morgan Elizabeth
+           Tucker</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Morgan Howell</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Nicole Prorock</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Rebecca Arbuthnot</td>
+           <td>Banks</td>
+          </tr>
+          <tr>
+           <td>Shannon Rucker</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>Shauna Johnson</td>
+           <td></td>
+          </tr>
+          </tr>
+        </table>
+                                  </center>
+                                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+                                  <!-- Include all compiled plugins (below), or include individual files as needed -->
+                                  <script src="js/bootstrap.min.js"></script>
+                                </body>
+
+                                </html>

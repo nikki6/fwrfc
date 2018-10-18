@@ -4,8 +4,16 @@
 		"selected_items":
 		[
 			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"backgroundc",
+				"background-color"
+			],
+			[
 				"mar",
-				"margin-bottom"
+				"margin"
 			],
 			[
 				"bor",
@@ -80,8 +88,12 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/fwrfc/css/main2.css",
 		"/Applications/MAMP/htdocs/fwrfc/index.html",
+		"/Applications/MAMP/htdocs/fwrfc/css/main2.css",
+		"/Applications/MAMP/htdocs/fwrfc/media/upload.php",
+		"/Applications/MAMP/htdocs/fwrfc/media/uploadImages.html",
+		"/Applications/MAMP/htdocs/fwrfc/media/css/uploaded.css",
+		"/Applications/MAMP/htdocs/fwrfc/media/media.html",
 		"/Applications/MAMP/htdocs/fwrfc/index.php",
 		"/Users/nkeller/Documents/test_Nikki/test_Nikki_Links.html",
 		"/Users/nkeller/Documents/Policy Machine/Policy_Machine(SVN)/external1/NVD/jira/3.13.5/webapp/includes/js/yui/fonts/fonts.css",
@@ -141,7 +153,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
